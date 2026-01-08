@@ -18,12 +18,27 @@
     </div>
   </header>
 
-  <div class="chat-box" id="chatBox"></div>
+  <div class="topic-select-wrapper">
+  <label for="topicSelect">Choose Support Topic:</label>
+  <select id="topicSelect">
+    <option value="education">Education, Learning, Courses & Academic Help</option>
+    <option value="ecommerce">E-commerce: Shopping, Orders, Products & Delivery</option>
+  </select>
+</div>
+<div class="chat-box" id="chatBox"></div>
 
   <form id="chatForm" class="chat-form">
-    <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off">
-    <button type="submit">Send</button>
-  </form>
+  <input type="text" id="userInput" placeholder="Type your message..." autocomplete="off">
+  <button type="button" id="micBtn" aria-label="Voice input" title="Speak">
+    <span class="mic-icon-wrapper">
+      <svg class="mic-icon" width="26" height="26" viewBox="0 0 26 26">
+        <circle class="mic-pulse" cx="13" cy="13" r="12" fill="#e74c3c" opacity="0.13"/>
+        <path class="mic-base" d="M13 19a4 4 0 0 0 4-4v-4a4 4 0 0 0-8 0v4a4 4 0 0 0 4 4zm5-4a1 1 0 1 1 2 0 7 7 0 0 1-14 0 1 1 0 1 1 2 0 5 5 0 0 0 10 0zM10 22a1 1 0 0 1 2 0v2h2v-2a1 1 0 1 1 2 0v2a3 3 0 1 1-6 0v-2z" fill="currentColor" />
+      </svg>
+    </span>
+  </button>
+  <button type="submit">Send</button>
+</form>
 
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>

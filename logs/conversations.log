@@ -523,26 +523,1880 @@ Ready to explore the vibrant city of Raj\u202fKot? Below is a fun\u2011packed, e
 | **3. Browse Restaurants** | Use the search bar or “Explore” tabs. Filter by cuisine, rating, or “Delivery”. | You can also search “Pizza near me” or “Sushi”. |
 | **4. Pick a Restaurant** | Tap the restaurant \u2192 scroll through the menu. | Look
 2026-01-02 12:13:41,518 127.0.0.1 - - [02/Jan/2026 12:13:41] "POST /api/chat HTTP/1.1" 200 -
-2026-01-08 15:11:01,259 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2026-01-02 12:54:46,208 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
  * Running on http://10.86.187.199:5000
-2026-01-08 15:11:01,259 [33mPress CTRL+C to quit[0m
-2026-01-08 15:11:01,259  * Restarting with stat
-2026-01-08 15:11:02,327  * Debugger is active!
-2026-01-08 15:11:02,335  * Debugger PIN: 814-560-840
-2026-01-08 15:11:02,359 127.0.0.1 - - [08/Jan/2026 15:11:02] "GET / HTTP/1.1" 200 -
-2026-01-08 15:11:02,465 127.0.0.1 - - [08/Jan/2026 15:11:02] "GET /static/css/style.css HTTP/1.1" 200 -
-2026-01-08 15:11:02,484 127.0.0.1 - - [08/Jan/2026 15:11:02] "GET /static/js/script.js HTTP/1.1" 200 -
-2026-01-08 15:11:02,484 127.0.0.1 - - [08/Jan/2026 15:11:02] "GET /static/images/logo.png HTTP/1.1" 200 -
-2026-01-08 15:11:02,584 127.0.0.1 - - [08/Jan/2026 15:11:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
-2026-01-08 15:11:05,417 127.0.0.1 - - [08/Jan/2026 15:11:05] "GET /static/images/user-logo.png HTTP/1.1" 200 -
-2026-01-08 15:11:05,417 127.0.0.1 - - [08/Jan/2026 15:11:05] "GET /static/images/bot-logo.png HTTP/1.1" 200 -
-2026-01-08 15:11:09,983 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-01-08 15:11:09,999 USER(20260108151105): Hii
-2026-01-08 15:11:09,999 BOT: Hello! \U0001f44b How can I help you today?
-2026-01-08 15:11:09,999 127.0.0.1 - - [08/Jan/2026 15:11:09] "POST /api/chat HTTP/1.1" 200 -
-2026-01-08 15:11:19,953 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
-2026-01-08 15:11:19,953 USER(20260108151105): Who are You
-2026-01-08 15:11:19,953 BOT: I’m your friendly customer\u2011support assistant—an AI here to help answer questions, solve problems, and make your experience as smooth as possible. How can I assist you today?
-2026-01-08 15:11:19,953 127.0.0.1 - - [08/Jan/2026 15:11:19] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 12:54:46,208 [33mPress CTRL+C to quit[0m
+2026-01-02 12:54:46,212  * Restarting with stat
+2026-01-02 12:54:47,181  * Debugger is active!
+2026-01-02 12:54:47,181  * Debugger PIN: 814-560-840
+2026-01-02 12:54:50,812 127.0.0.1 - - [02/Jan/2026 12:54:50] "GET / HTTP/1.1" 200 -
+2026-01-02 12:54:50,883 127.0.0.1 - - [02/Jan/2026 12:54:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-01-02 12:54:50,890 127.0.0.1 - - [02/Jan/2026 12:54:50] "GET /static/images/logo.png HTTP/1.1" 200 -
+2026-01-02 12:54:50,893 127.0.0.1 - - [02/Jan/2026 12:54:50] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-01-02 12:55:09,932 127.0.0.1 - - [02/Jan/2026 12:55:09] "GET /static/images/user-logo.png HTTP/1.1" 200 -
+2026-01-02 12:55:09,934 127.0.0.1 - - [02/Jan/2026 12:55:09] "GET /static/images/bot-logo.png HTTP/1.1" 200 -
+2026-01-02 12:55:10,779 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 12:55:10,800 USER(20260102125509): hu r u
+2026-01-02 12:55:10,800 BOT: Hi there! I’m ChatGPT, your friendly customer\u2011support assistant. How can I help you today?
+2026-01-02 12:55:10,800 127.0.0.1 - - [02/Jan/2026 12:55:10] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 12:59:26,099 127.0.0.1 - - [02/Jan/2026 12:59:26] "GET / HTTP/1.1" 200 -
+2026-01-02 12:59:26,120 127.0.0.1 - - [02/Jan/2026 12:59:26] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-01-02 12:59:26,120 127.0.0.1 - - [02/Jan/2026 12:59:26] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 12:59:26,123 127.0.0.1 - - [02/Jan/2026 12:59:26] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-01-02 12:59:30,608 127.0.0.1 - - [02/Jan/2026 12:59:30] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 12:59:30,608 127.0.0.1 - - [02/Jan/2026 12:59:30] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 12:59:31,923 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 12:59:31,923 USER(20260102125509): who are you
+2026-01-02 12:59:31,923 BOT: I’m ChatGPT, a virtual assistant powered by OpenAI. I’m here to help answer questions, offer support, or just chat—whatever you need! How can I assist you today?
+2026-01-02 12:59:31,923 127.0.0.1 - - [02/Jan/2026 12:59:31] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 12:59:54,123 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 12:59:54,123 USER(20260102125509): order on Zomato give step by step
+2026-01-02 12:59:54,123 BOT: Sure thing! Here’s a simple, step\u2011by\u2011step guide to ordering food on Zomato (whether you’re using the app or the website). I’ll cover both options so you can pick whichever you prefer.
+
+---
+
+## \U0001f4f1 Ordering via the Zomato App
+
+1. **Download & Open the App**  
+   - Find the Zomato app on the App Store (iOS) or Google Play Store (Android).  
+   - Install it, then tap **Open**.
+
+2. **Sign In / Sign Up**  
+   - If you already have an account, tap **Login** and enter your credentials.  
+   - If you’re new, tap **Sign Up** and follow the prompts (email, phone number, or social login).
+
+3. **Set Your Location**  
+   - The app will ask for location permission. Allow it so Zomato can show restaurants near you.  
+   - Alternatively, tap the search bar and type your address or zip code.
+
+4. **Browse Restaurants**  
+   - Use the **Home** tab to see popular picks, or tap
+2026-01-02 12:59:54,123 127.0.0.1 - - [02/Jan/2026 12:59:54] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:06:24,181  * Detected change in 'E:\\Customer-Support-Chatbot-Generative-AI-Powered-main\\app.py', reloading
+2026-01-02 13:06:24,390  * Restarting with stat
+2026-01-02 13:06:25,289  * Debugger is active!
+2026-01-02 13:06:25,292  * Debugger PIN: 814-560-840
+2026-01-02 13:06:39,357  * Detected change in 'E:\\Customer-Support-Chatbot-Generative-AI-Powered-main\\app.py', reloading
+2026-01-02 13:06:39,424  * Restarting with stat
+2026-01-02 13:06:40,320  * Debugger is active!
+2026-01-02 13:06:40,320  * Debugger PIN: 814-560-840
+2026-01-02 13:06:56,394  * Detected change in 'E:\\Customer-Support-Chatbot-Generative-AI-Powered-main\\app.py', reloading
+2026-01-02 13:06:56,467  * Restarting with stat
+2026-01-02 13:06:57,346  * Debugger is active!
+2026-01-02 13:06:57,354  * Debugger PIN: 814-560-840
+2026-01-02 13:07:27,514 127.0.0.1 - - [02/Jan/2026 13:07:27] "GET / HTTP/1.1" 200 -
+2026-01-02 13:07:27,597 127.0.0.1 - - [02/Jan/2026 13:07:27] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:07:27,597 127.0.0.1 - - [02/Jan/2026 13:07:27] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-01-02 13:07:27,597 127.0.0.1 - - [02/Jan/2026 13:07:27] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-01-02 13:07:46,404 127.0.0.1 - - [02/Jan/2026 13:07:46] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:07:46,408 127.0.0.1 - - [02/Jan/2026 13:07:46] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:07:47,445 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:07:47,466 USER(20260102130746): how to apply in marwadi universiry - rajkot - gujarat
+2026-01-02 13:07:47,466 BOT: I’m sorry, but I can only help with questions about shopping, orders, products, account info, or delivery. If you have any questions in those areas, feel free to ask!
+2026-01-02 13:07:47,466 127.0.0.1 - - [02/Jan/2026 13:07:47] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:08:03,724 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:08:03,729 USER(20260102130746): how to apply in marwadi universiry - rajkot - gujarat
+2026-01-02 13:08:03,729 BOT: Sure thing! \U0001f393 Here’s a step\u2011by\u2011step guide on how to apply to Marwadi University in Rajkot, Gujarat:
+
+---
+
+## 1\ufe0f\u20e3 Check Eligibility & Course Options  
+- **Visit the official website**: https://www.marwadiuniversity.edu.in/  
+- **Browse the “Courses” section** to find the program that interests you (undergraduate, postgraduate, diploma, etc.).  
+- **Read the eligibility criteria** for each course – it usually includes minimum marks, required subjects, and any entrance exam scores.
+
+---
+
+## 2\ufe0f\u20e3 Gather Required Documents  
+Typical documents you’ll need (but double\u2011check the specific program page for any variations):
+
+| Document | Purpose |
+|
+2026-01-02 13:08:03,729 127.0.0.1 - - [02/Jan/2026 13:08:03] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:08:42,632 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:08:42,638 USER(20260102130746): how to order on zomato
+2026-01-02 13:08:42,638 BOT: Sure thing! \U0001f354\U0001f355 Ordering on Zomato is quick and easy. Here’s a step\u2011by\u2011step guide to help you get your favorite food delivered right to your doorstep:
+
+---
+
+## 1\ufe0f\u20e3 Get the App (or Use the Web)
+
+| Option | How to Access |
+|--------|---------------|
+| **Mobile App** | Download the Zomato app from the App Store (iOS) or Google Play (Android). |
+| **Website** | Visit [zomato.com](https://www.zomato.com) on any browser. |
+
+---
+
+## 2\ufe0f\u20e3 Sign In / Sign Up
+
+1. **Open the app or website.**  
+2. Tap **“Sign In”** (or “Create Account” if you’re new).  
+3. You can sign up with:
+   - Email address
+   - Phone number
+   - Google account
+   - Facebook account
+
+---
+
+## 3\ufe0f\u20e3 Enter Your Delivery Address
+
+1. After logging in, tap **“Add Address”** or **“Set Delivery Location.”**  
+2. Type your full address or let
+2026-01-02 13:08:42,638 127.0.0.1 - - [02/Jan/2026 13:08:42] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:09:00,785 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:09:00,791 USER(20260102130746): how to order on Zomato how to order on Zomato
+2026-01-02 13:09:00,791 BOT: I’m sorry, but I can only help with questions about education, learning, courses, studying, or academic help. If you have any questions in those areas, feel free to ask!
+2026-01-02 13:09:00,791 127.0.0.1 - - [02/Jan/2026 13:09:00] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:09:19,854 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:09:19,854 USER(20260102130746): how to learn sex education
+2026-01-02 13:09:19,854 BOT: Absolutely—learning about sexual health is an important part of overall well\u2011being, and there are plenty of reliable, respectful resources to help you get started. Below is a quick guide to get you on the right track, with a focus on safety, consent, and evidence\u2011based information.
+
+---
+
+## 1\ufe0f\u20e3 Start with Reputable Foundations
+
+| Resource | What It Covers | Why It’s Reliable |
+|----------|----------------|-------------------|
+| **World Health Organization (WHO)** – *Sexual and Re
+2026-01-02 13:09:19,860 127.0.0.1 - - [02/Jan/2026 13:09:19] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:09:32,711 127.0.0.1 - - [02/Jan/2026 13:09:32] "GET / HTTP/1.1" 200 -
+2026-01-02 13:09:32,731 127.0.0.1 - - [02/Jan/2026 13:09:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:09:32,735 127.0.0.1 - - [02/Jan/2026 13:09:32] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:09:32,735 127.0.0.1 - - [02/Jan/2026 13:09:32] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:21:23,973 127.0.0.1 - - [02/Jan/2026 13:21:23] "GET / HTTP/1.1" 200 -
+2026-01-02 13:21:23,995 127.0.0.1 - - [02/Jan/2026 13:21:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:21:23,995 127.0.0.1 - - [02/Jan/2026 13:21:23] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:21:24,009 127.0.0.1 - - [02/Jan/2026 13:21:24] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:25:27,275 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.86.187.199:5000
+2026-01-02 13:25:27,280 [33mPress CTRL+C to quit[0m
+2026-01-02 13:25:27,284  * Restarting with stat
+2026-01-02 13:25:28,200  * Debugger is active!
+2026-01-02 13:25:28,201  * Debugger PIN: 814-560-840
+2026-01-02 13:25:28,478 127.0.0.1 - - [02/Jan/2026 13:25:28] "GET / HTTP/1.1" 200 -
+2026-01-02 13:25:28,567 127.0.0.1 - - [02/Jan/2026 13:25:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-01-02 13:25:28,569 127.0.0.1 - - [02/Jan/2026 13:25:28] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-01-02 13:25:28,583 127.0.0.1 - - [02/Jan/2026 13:25:28] "GET /static/images/logo.png HTTP/1.1" 200 -
+2026-01-02 13:25:30,596 127.0.0.1 - - [02/Jan/2026 13:25:30] "GET /static/images/bot-logo.png HTTP/1.1" 200 -
+2026-01-02 13:25:30,596 127.0.0.1 - - [02/Jan/2026 13:25:30] "GET /static/images/user-logo.png HTTP/1.1" 200 -
+2026-01-02 13:25:33,311 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:25:33,324 USER(20260102132530): hii
+2026-01-02 13:25:33,324 BOT: Hello! \U0001f44b How can I help you with your studies or learning goals today?
+2026-01-02 13:25:33,324 127.0.0.1 - - [02/Jan/2026 13:25:33] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:25:42,263 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:25:42,267 USER(20260102132530): I want to take admission in Marwadi University Rajkot Gujarat
+2026-01-02 13:25:42,267 BOT: Sure thing! Marwadi University in Rajkot, Gujarat offers a variety of undergraduate, postgraduate, and diploma programs across fields like Engineering, Management, Law, Pharmacy, and more. Here’s a quick guide to help you get started with your admission process:
+
+---
+
+## 1\ufe0f\u20e3 Check the Program & Eligibility
+
+| Program | Typical Eligibility | Notes |
+|---------|---------------------|-------|
+| B.Tech / B.E. | 10+2 with 50% (or 45% for SC/ST) in Physics, Chemistry, and Maths | Some branches may require a minimum of 60% |
+| BBA / B.Com | 10+2 with 50% (or 45% for SC/ST) in any stream | |
+| M.Tech / M.Sc. | B.Tech/B.Sc. with 55% (or 50% for SC/ST) | |
+| MBA | 10+2 + 3\u2011year BBA/undergrad with 50% (or 45% for SC/ST) | |
+| LLB | 10+2 with 50% (or 45% for SC/ST) | |
+| Pharmacy
+2026-01-02 13:25:42,269 127.0.0.1 - - [02/Jan/2026 13:25:42] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:26:16,817 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:26:16,824 USER(20260102132530): complete step by step process
+2026-01-02 13:26:16,824 BOT: Absolutely! \U0001f393 Below is a **step\u2011by\u2011step guide** to help you navigate the admission process at **Marwadi University, Rajkot (Gujarat)**.  
+Feel free to ask if you need details on a specific program or any part of the process.
+
+---
+
+## \U0001f4cc Step 1: Explore & Choose Your Program
+
+1. **Visit the Official Site**  
+   - Go to the Marwadi University website (https://www.marwadiuniversity.edu.in/).  
+   - Navigate to the *“Courses”* or *“Programs”* section.
+
+2. **List Your Options**  
+   - Note the courses that interest you (e.g., B.Tech, MBA, LLB, Pharmacy, etc.).  
+   - Check the *“Eligibility”* tab for each program.
+
+3. **Check Cut\u2011Off & Seat Availability**  
+   - Look for *“Seat Matrix”
+2026-01-02 13:26:16,824 127.0.0.1 - - [02/Jan/2026 13:26:16] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:26:36,089 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:26:36,089 USER(20260102132530): more details
+2026-01-02 13:26:36,089 BOT: ### \U0001f393 Step\u2011by\u2011Step Admission Process at Marwadi University, Rajkot
+
+| # | What to Do | Why It Matters | Tips |
+|---|------------|----------------|------|
+| **1\ufe0f\u20e3** | **Explore Programs & Eligibility** | Know what you’re applying for and whether you meet the cut\u2011off. | Use the *“Courses”* page and the *“Eligibility”* tab. |
+| **2\ufe0f\u20e3** | **Check Application Window** | Admissions open at specific dates each semester. | Usually **January–March** for the 2026\u201127 academic year. |
+| **3\ufe0f\u20e3** | **Register on the Online Portal** | You’ll need a unique login to fill the form. | Go to **https://www.marwadiuniversity.edu.in/online-application
+2026-01-02 13:26:36,089 127.0.0.1 - - [02/Jan/2026 13:26:36] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:26:43,908 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:26:43,914 USER(20260102132530): the fee structure
+2026-01-02 13:26:43,914 BOT: Sure! Below is a **general fee structure** for the most popular programs at Marwadi University, Rajkot (Gujarat).  
+*Note: Fees are approximate and can change each academic year. Always check the official fee schedule on the university’s website or contact the admissions office for the most up\u2011to\u2011date figures.*
+
+| Program | Approx. Annual Tuition Fee (\u20b9) | Additional Fees | Notes |
+|---------|--------------------------------|-----------------|-------|
+| **B.Tech / B.E. (Engineering)** | 1,20,000 – 1,50,000 | 10,000 – 15,000 (lab, library, sports) | Fees vary by branch (e.g., Computer Science, Electronics). |
+| **BBA / B.Com** | 80,000 – 1,10,000 | 8,000 – 12,000 (library, sports) | 3\u2011year program. |
+| **MBA** | 1,50,000 – 2,00,000 | 12,000 – 18
+2026-01-02 13:26:43,915 127.0.0.1 - - [02/Jan/2026 13:26:43] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:27:30,963 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:27:30,963 USER(20260102132530): how to take admission in Marwadi University Rajkot Gujarat
+2026-01-02 13:27:30,963 BOT: ### \U0001f393 How to Get Admitted to Marwadi University, Rajkot (Gujarat)
+
+Below is a **complete, step\u2011by\u2011step guide** that takes you from “I want to study” to “I’m a student!”  
+Feel free to skip steps that don’t apply to your chosen program (e.g., B.Tech vs. MBA).
+
+---
+
+## 1\ufe0f\u20e3 Know What You Want to Study
+
+| Program | Typical Eligibility | Typical Duration |
+|---------|---------------------|------------------|
+| **B.Tech / B.E.** | 10+2 with 50% (45% for SC/ST) in Physics, Chemistry & Maths | 4 years |
+| **BBA / B.Com** | 10+2 with 50% (45% for SC/ST) in any stream | 3 years |
+| **MBA** | 10+2 + 3\u2011year BBA/undergrad with 50% (45% for SC/ST) | 2 years |
+| **LLB** | 10+2 with 50% (45% for SC/ST) | 
+2026-01-02 13:27:30,963 127.0.0.1 - - [02/Jan/2026 13:27:30] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:27:36,334 127.0.0.1 - - [02/Jan/2026 13:27:36] "GET / HTTP/1.1" 200 -
+2026-01-02 13:27:36,356 127.0.0.1 - - [02/Jan/2026 13:27:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:27:36,359 127.0.0.1 - - [02/Jan/2026 13:27:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:27:36,361 127.0.0.1 - - [02/Jan/2026 13:27:36] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:27:42,020 127.0.0.1 - - [02/Jan/2026 13:27:42] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:27:42,020 127.0.0.1 - - [02/Jan/2026 13:27:42] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:27:44,136 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:27:44,136 USER(20260102132530): to take admission in Marwadi University
+2026-01-02 13:27:44,136 BOT: ### \U0001f393 How to Take Admission at Marwadi University, Rajkot (Gujarat)
+
+Below is a **step\u2011by\u2011step guide** that walks you through the entire process—from choosing a program to receiving your admission letter.  
+Just follow the numbered steps and you’ll be on your way to becoming a Marwadi University student!
+
+---
+
+## 1\ufe0f\u20e3 Choose Your Program & Verify Eligibility
+
+| Program | Typical Eligibility | Notes |
+|---------|---------------------|-------|
+| **B.Tech / B.E.** | 10+2 with 50\u202f% (45\u202f% for SC/ST) in Physics, Chemistry & Maths | Some branches may need 60\u202f% |
+| **BBA / B.Com** | 10+2 with 50\u202f% (45\u202f% for SC/ST) in any stream | 3\u2011year course |
+| **MBA** | 10+2 + 3\u2011year BBA/undergrad with 50\u202f% (45\u202f% for SC/ST) | 
+2026-01-02 13:27:44,136 127.0.0.1 - - [02/Jan/2026 13:27:44] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:28:04,597 127.0.0.1 - - [02/Jan/2026 13:28:04] "GET / HTTP/1.1" 200 -
+2026-01-02 13:28:04,615 127.0.0.1 - - [02/Jan/2026 13:28:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:28:04,615 127.0.0.1 - - [02/Jan/2026 13:28:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:28:04,621 127.0.0.1 - - [02/Jan/2026 13:28:04] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:42:42,843 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.86.187.199:5000
+2026-01-02 13:42:42,843 [33mPress CTRL+C to quit[0m
+2026-01-02 13:42:42,843  * Restarting with stat
+2026-01-02 13:42:43,774  * Debugger is active!
+2026-01-02 13:42:43,774  * Debugger PIN: 814-560-840
+2026-01-02 13:42:43,788 127.0.0.1 - - [02/Jan/2026 13:42:43] "GET / HTTP/1.1" 200 -
+2026-01-02 13:42:43,857 127.0.0.1 - - [02/Jan/2026 13:42:43] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:42:43,857 127.0.0.1 - - [02/Jan/2026 13:42:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:42:43,866 127.0.0.1 - - [02/Jan/2026 13:42:43] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:42:54,406 127.0.0.1 - - [02/Jan/2026 13:42:54] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:42:54,407 127.0.0.1 - - [02/Jan/2026 13:42:54] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:42:55,671 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:42:55,684 USER(20260102134254): how to order in zomato
+2026-01-02 13:42:55,684 BOT: Sure thing! Ordering on Zomato is quick and easy. Here’s a simple step\u2011by\u2011step guide:
+
+1. **Open the App or Website**  
+   - If you haven’t already, download the Zomato app from the App Store (iOS) or Google Play (Android).  
+   - Alternatively, visit the Zomato website at www.zomato.com.
+
+2. **Sign In / Sign Up**  
+   - Tap “Login” or “Sign Up” in the top right corner.  
+   - You can log in with your email, phone number, or social media account.  
+   - If you’re new, create an account – it only takes a minute.
+
+3. **Enter Your Delivery Address**  
+   - Once logged in, the app will ask for your location.  
+   - You can manually enter your address or allow the app to use GPS.  
+   - This helps Zomato show you restaurants that deliver to you.
+
+4. **Browse Restaurants**  
+   - Use the search bar to look for
+2026-01-02 13:42:55,684 127.0.0.1 - - [02/Jan/2026 13:42:55] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:43:45,053  * Detected change in 'C:\\Users\\shakt\\Downloads\\Customer-Support-Chatbot-Generative-AI-Powered-main\\app.py', reloading
+2026-01-02 13:43:45,238  * Restarting with stat
+2026-01-02 13:43:46,107  * Debugger is active!
+2026-01-02 13:43:46,107  * Debugger PIN: 814-560-840
+2026-01-02 13:43:47,123  * Detected change in 'C:\\Users\\shakt\\Downloads\\Customer-Support-Chatbot-Generative-AI-Powered-main\\chat_handler.py', reloading
+2026-01-02 13:43:47,186  * Restarting with stat
+2026-01-02 13:43:48,002  * Debugger is active!
+2026-01-02 13:43:48,002  * Debugger PIN: 814-560-840
+2026-01-02 13:43:54,045  * Detected change in 'C:\\Users\\shakt\\Downloads\\Customer-Support-Chatbot-Generative-AI-Powered-main\\app.py', reloading
+2026-01-02 13:43:54,109  * Restarting with stat
+2026-01-02 13:43:55,096  * Debugger is active!
+2026-01-02 13:43:55,103  * Debugger PIN: 814-560-840
+2026-01-02 13:44:00,732 127.0.0.1 - - [02/Jan/2026 13:44:00] "GET / HTTP/1.1" 200 -
+2026-01-02 13:44:00,815 127.0.0.1 - - [02/Jan/2026 13:44:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:44:00,815 127.0.0.1 - - [02/Jan/2026 13:44:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:44:00,815 127.0.0.1 - - [02/Jan/2026 13:44:00] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:44:04,458 127.0.0.1 - - [02/Jan/2026 13:44:04] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:44:04,458 127.0.0.1 - - [02/Jan/2026 13:44:04] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:44:06,496 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:44:06,510 USER(20260102134404): how to order in zomato
+2026-01-02 13:44:06,510 BOT: 
+2026-01-02 13:44:06,516 127.0.0.1 - - [02/Jan/2026 13:44:06] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:44:09,607 127.0.0.1 - - [02/Jan/2026 13:44:09] "GET / HTTP/1.1" 200 -
+2026-01-02 13:44:09,634 127.0.0.1 - - [02/Jan/2026 13:44:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:44:09,635 127.0.0.1 - - [02/Jan/2026 13:44:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:44:09,636 127.0.0.1 - - [02/Jan/2026 13:44:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:44:14,280 127.0.0.1 - - [02/Jan/2026 13:44:14] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:44:14,285 127.0.0.1 - - [02/Jan/2026 13:44:14] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:46:56,120 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.86.187.199:5000
+2026-01-02 13:46:56,120 [33mPress CTRL+C to quit[0m
+2026-01-02 13:46:56,120  * Restarting with stat
+2026-01-02 13:46:56,903  * Debugger is active!
+2026-01-02 13:46:56,905  * Debugger PIN: 814-560-840
+2026-01-02 13:47:06,326 127.0.0.1 - - [02/Jan/2026 13:47:06] "GET / HTTP/1.1" 200 -
+2026-01-02 13:47:06,554 127.0.0.1 - - [02/Jan/2026 13:47:06] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:47:06,586 127.0.0.1 - - [02/Jan/2026 13:47:06] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:47:06,654 127.0.0.1 - - [02/Jan/2026 13:47:06] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:47:06,738 127.0.0.1 - - [02/Jan/2026 13:47:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-02 13:47:19,085 127.0.0.1 - - [02/Jan/2026 13:47:19] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:47:19,092 127.0.0.1 - - [02/Jan/2026 13:47:19] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:47:21,253 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:47:21,268 USER(20260102134719): how to order in zomato
+2026-01-02 13:47:21,268 BOT: Hi there! \U0001f44b  
+Ordering food on Zomato is quick and easy. Here’s a simple step\u2011by\u2011step guide to help you get your favorite meal delivered to your doorstep:
+
+1. **Download & Open the App (or Visit the Website)**
+   - If you haven’t already, download the Zomato app from the App Store (iOS) or Google Play (Android).  
+   - Alternatively, you can use the web version at [zomato.com](https://www.zomato.com/).
+
+2. **Create or Log In to Your Account**
+   - Sign up with your email, phone number, or social media account.  
+   - If you already have an account, just log in.
+
+3. **Enter Your Delivery Address**
+   - Add your current location or the address where you’d like the food delivered.  
+   - Zomato will show you restaurants that deliver to that area.
+
+4. **Browse Restaurants & Menus**
+   - Use the search bar to find a specific restaurant or cuisine.  
+   - You can also filter by “Delivery”, “Takeaway”, “Rating”, “Price”, etc.
+
+5. **Select Your Items**
+   - Tap on a restaurant, then browse the menu.  
+   - Add items to your cart by tapping the “+” or “Add” button.  
+   - You can customize dishes (e.g., extra cheese, no onions) if the option is available.
+
+6. **Review Your Cart**
+   - Tap the cart icon to see all selected items, quantities, and the total cost.  
+   - Edit quantities or remove items if needed.
+
+7. **Proceed to Checkout**
+   - Tap “Place Order” or “Checkout”.  
+   - Confirm your delivery address and any special instructions (e.g., “Ring the doorbell”).
+
+8. **Choose a Payment Method**
+   - Zomato accepts various payment options: credit/debit cards, net banking, UPI, wallets (Paytm, Google Pay, etc.), and sometimes cash on delivery.  
+   - Select your preferred method and complete the payment.
+
+9. **Track Your Order**
+   - Once the order is confirmed, you’ll see a live status: “Order Received”, “Preparing”, “Out for Delivery”, etc.  
+   - You can also get real\u2011time updates via the app or SMS/email notifications.
+
+10. **Enjoy Your Meal!**
+    - When the delivery person arrives, double\u2011check the order and enjoy your food.
+
+### Quick Tips
+- **Save Favorites**: If you love a particular restaurant, add it to your favorites for faster ordering next time.  
+- **Use Promo Codes**: Look for discount codes or “Zomato Gold” offers to save on your order.  
+- **Contact Support**: If you run into any issues, tap the “Help” or “Support” section in the app for assistance.
+
+That’s it! If you have any more questions—whether it’s about payment options, delivery times, or anything else—just let me know. Happy ordering! \U0001f354\U0001f355\U0001f957
+2026-01-02 13:47:21,268 127.0.0.1 - - [02/Jan/2026 13:47:21] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:47:35,029 127.0.0.1 - - [02/Jan/2026 13:47:35] "GET / HTTP/1.1" 200 -
+2026-01-02 13:47:35,057 127.0.0.1 - - [02/Jan/2026 13:47:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:47:35,059 127.0.0.1 - - [02/Jan/2026 13:47:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:47:35,064 127.0.0.1 - - [02/Jan/2026 13:47:35] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:48:48,526 127.0.0.1 - - [02/Jan/2026 13:48:48] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:48:48,526 127.0.0.1 - - [02/Jan/2026 13:48:48] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:48:50,653 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:48:50,653 USER(20260102134719): 5t6y7u8i9o0
+2026-01-02 13:48:50,653 BOT: It looks like that might not be related to education or learning. If you have any questions about courses, studying tips, academic resources, or anything else educational, feel free to ask! I'm here to help with those topics.
+2026-01-02 13:48:50,653 127.0.0.1 - - [02/Jan/2026 13:48:50] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:48:54,495 127.0.0.1 - - [02/Jan/2026 13:48:54] "GET / HTTP/1.1" 200 -
+2026-01-02 13:48:54,510 127.0.0.1 - - [02/Jan/2026 13:48:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:48:54,513 127.0.0.1 - - [02/Jan/2026 13:48:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:48:54,513 127.0.0.1 - - [02/Jan/2026 13:48:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:49:18,239 127.0.0.1 - - [02/Jan/2026 13:49:18] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:49:18,246 127.0.0.1 - - [02/Jan/2026 13:49:18] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:49:20,801 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:49:20,801 USER(20260102134719): admission in Marwadi University
+2026-01-02 13:49:20,801 BOT: Hello! \U0001f44b  
+I’d be happy to help you with admission to Marwadi University. Below is a quick guide covering the key steps, eligibility, required documents, and tips for a smooth application process.
+
+---
+
+## 1\ufe0f\u20e3 Overview of Marwadi University
+
+- **Location:** Jaipur, Rajasthan (and other campuses in India)
+- **Programs:** Undergraduate, postgraduate, doctoral, and professional courses across Engineering, Management, Pharmacy, Law, Architecture, Design, and more.
+- **Accreditation:** UGC, AICTE, PCI, BCI, and other relevant bodies.
+
+---
+
+## 2\ufe0f\u20e3 Admission Process
+
+| Program | Typical Entrance Exam | Application Window | Key Steps |
+|---------|-----------------------|--------------------|-----------|
+| **Undergraduate (UG)** | JEE Main, JEE Advanced, JEE Mains (for B.Tech), or university\u2011specific entrance tests | Usually **Oct–Nov** (for most courses) | 1. Register online <br>2. Pay application fee <br>3. Upload documents <br>4. Attend counseling/seat allocation |
+| **Postgraduate (PG)** | GATE (for M.Tech), XAT/GMAT/Management Aptitude Test (for MBA), NEET (for M.Pharm), LSAT (for LLM), etc. | **Jan–Mar** (varies by course) | 1. Apply online <br>2. Submit exam score <br>3. Upload transcripts <br>4. Attend counseling |
+| **Doctoral (PhD)** | University\u2011specific entrance or research proposal evaluation | **Varies** (often open year\u2011round) | 1. Submit research proposal <br>2. Provide academic records <br>3. Attend interview (if required) |
+| **Professional Courses (e.g., B.Arch, B.Des, B.Pharm)** | JEE Mains (for B.Arch), NATA (for B.Des), NEET (for B.Pharm) | **Oct–Nov** | 1. Apply online <br>2. Upload entrance score <br>3. Attend counseling |
+
+> **Tip:** Always check the specific program’s admission page on the university’s official website for the most accurate dates and requirements.
+
+---
+
+## 3\ufe0f\u20e3 Eligibility Criteria (General)
+
+| Course | Minimum Academic Qualification | Entrance Exam | Other Requirements |
+|--------|--------------------------------|---------------|--------------------|
+| **B.Tech** | 10+2 with Physics, Chemistry, and Maths (\u2265 50% or 60% for SC/ST) | JEE Main (or university test) | None |
+| **B.Arch** | 10+2 with Maths (\u2265 50%) | JEE Main (or university test) | None |
+| **B.Des** | 10+2 with Maths (\u2265 50%) | NATA (or university test) | None |
+| **B.Pharm** | 10+2 with Chemistry (\u2265 50%) | NEET (or university test) | None |
+| **MBA** | Graduate with 50% (or 55% for SC/ST) | XAT/GMAT/Management Aptitude | None |
+| **M.Tech** | B.Tech/B.E. with 60% (or 55% for SC/ST) | GATE | None |
+| **M.Pharm** | B.Pharm with 60% (or 55% for SC/ST) | NEET | None |
+| **LLM** | LLB with 50% | LSAT (or university test) | None |
+| **PhD** | Master’s with 55% | Entrance test or research proposal | None |
+
+> **Note:** Some courses may have additional criteria (e.g., minimum age, specific subject combinations). Always verify on the official site.
+
+---
+
+## 4\ufe0f\u20e3 Required Documents
+
+| Document | Format | Notes |
+|----------|--------|-------|
+| **Application Form** | Completed online | Save confirmation |
+| **Academic Transcripts** | Original + photocopies | Certified by the board/university |
+| **Entrance Exam Scorecard** | Original + photocopy | Valid for 2 years |
+| **Passport\u2011size Photographs** | 2 recent photos | As per university guidelines |
+| **Identity Proof** | Aadhar, PAN, Passport | Original + photocopy |
+| **Character Certificate** | For PG/PhD | From a recognized authority |
+| **Research Proposal** | (PhD only) | Detailed outline of research |
+| **Fee Receipt** | Proof of payment | Keep for future reference |
+
+> **Tip:** Keep digital copies (PDF) of all documents for quick uploads.
+
+---
+
+## 5\ufe0f\u20e3 Application Steps (Online)
+
+1. **Create an Account**  
+   - Visit the official Marwadi University admission portal.  
+   - Register
+2026-01-02 13:49:20,801 127.0.0.1 - - [02/Jan/2026 13:49:20] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:49:58,884  * Detected change in 'C:\\Users\\shakt\\Downloads\\Customer-Support-Chatbot-Generative-AI-Powered-main\\app.py', reloading
+2026-01-02 13:49:59,016  * Restarting with stat
+2026-01-02 13:50:00,230  * Debugger is active!
+2026-01-02 13:50:00,232  * Debugger PIN: 814-560-840
+2026-01-02 13:50:33,355  * Detected change in 'C:\\Users\\shakt\\Downloads\\Customer-Support-Chatbot-Generative-AI-Powered-main\\app.py', reloading
+2026-01-02 13:50:33,417  * Restarting with stat
+2026-01-02 13:50:34,278  * Debugger is active!
+2026-01-02 13:50:34,285  * Debugger PIN: 814-560-840
+2026-01-02 13:50:40,315  * Detected change in 'C:\\Users\\shakt\\Downloads\\Customer-Support-Chatbot-Generative-AI-Powered-main\\chat_handler.py', reloading
+2026-01-02 13:50:40,423  * Restarting with stat
+2026-01-02 13:50:41,229  * Debugger is active!
+2026-01-02 13:50:41,229  * Debugger PIN: 814-560-840
+2026-01-02 13:50:44,273 127.0.0.1 - - [02/Jan/2026 13:50:44] "GET / HTTP/1.1" 200 -
+2026-01-02 13:50:44,333 127.0.0.1 - - [02/Jan/2026 13:50:44] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:50:44,349 127.0.0.1 - - [02/Jan/2026 13:50:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:50:44,349 127.0.0.1 - - [02/Jan/2026 13:50:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:51:00,550 127.0.0.1 - - [02/Jan/2026 13:51:00] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:51:00,551 127.0.0.1 - - [02/Jan/2026 13:51:00] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:51:03,166 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:51:03,166 USER(20260102135100): How to take adminssion in marwadi university
+2026-01-02 13:51:03,166 BOT: Hello! \U0001f44b  
+I’m happy to help you with the admission process at Marwadi University. Below is a general guide that should cover most of what you need to know. If you have any specific questions—like program\u2011specific requirements or deadlines—just let me know!
+
+---
+
+## 1\ufe0f\u20e3 Check Eligibility
+
+| Program | Typical Eligibility |
+|---------|---------------------|
+| **Undergraduate (UG)** | 10+2 (or equivalent) with a minimum percentage (often 50% for general, 45% for SC/ST/OBC). |
+| **Postgraduate (PG)** | Bachelor’s degree in a related field with a minimum percentage (usually 55%–60%). |
+| **Diploma / Certificate** | 10+2 or equivalent; some courses may have additional criteria. |
+| **Research (M.Phil./Ph.D.)** | Master’s degree (or equivalent) with a minimum GPA/percentage. |
+
+> **Tip:** Always verify the exact cut\u2011off marks or GPA on the university’s official website or in the admission brochure for the specific course you’re interested in.
+
+---
+
+## 2\ufe0f\u20e3 Gather Required Documents
+
+| Document | Typical Use |
+|----------|-------------|
+| **Application Form** | Completed online or hard copy. |
+| **Mark Sheets** | 10+2, Bachelor’s, Master’s (as applicable). |
+| **Degree Certificate** | Original + photocopies. |
+| **Passport\u2011size Photographs** | Usually 2–4 recent photos. |
+| **Identity Proof** | Aadhar card, PAN card, or passport. |
+| **Entrance Exam Score** | If the program requires an entrance test (e.g., JEE, NEET, GATE, etc.). |
+| **Letter of Recommendation** | For certain PG or research programs. |
+| **Statement of Purpose** | For research or certain PG courses. |
+| **Fee Receipt** | Proof of payment of application fee. |
+
+> **Pro tip:** Keep both originals and photocopies handy, and double\u2011check that all documents are in the required format (e.g., PDF, JPEG, etc.).
+
+---
+
+## 3\ufe0f\u20e3 Apply Online (Preferred Method)
+
+1. **Visit the Official Site**  
+   \U0001f449 https://www.marwadiuniversity.edu.in/  
+   (Look for the “Admissions” or “Apply Now” section.)
+
+2. **Create an Account**  
+   Register with your email and a secure password.
+
+3. **Fill the Application Form**  
+   - Choose your program and branch.  
+   - Enter personal details, academic history, and upload documents.
+
+4. **Pay the Application Fee**  
+   - Payment can usually be made via credit/debit card, net banking, or UPI.  
+   - Keep the payment receipt; you’ll need it for verification.
+
+5. **Submit**  
+   Once you’re satisfied with the information, submit the form. You’ll receive a confirmation email
+2026-01-02 13:51:03,166 127.0.0.1 - - [02/Jan/2026 13:51:03] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:52:01,214 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:52:01,214 USER(20260102135100): How to take adminssion in marwadi university
+2026-01-02 13:52:01,214 BOT: Hello! \U0001f44b  
+Here’s a quick, step\u2011by\u2011step guide to getting admitted to Marwadi University. If you need details for a specific program (e.g., B.Tech, MBA, Ph.D.), just let me know and I’ll dive deeper.
+
+---
+
+## 1\ufe0f\u20e3 Know the Eligibility
+
+| Program | Typical Eligibility |
+|---------|---------------------|
+| **Undergraduate (UG)** | 10+2 (or equivalent) with a minimum percentage (usually 50% for general, 45% for SC/ST/OBC). |
+| **Postgraduate (PG)** | Bachelor’s degree in a related field with a minimum percentage (often 55%–60%). |
+| **Diploma / Certificate** | 10+2 or equivalent; some courses may have extra criteria. |
+| **Research (M.Phil./Ph.D.)** | Master’s degree (or equivalent) with a minimum GPA/percentage. |
+
+> **Tip:** Check the exact cut\u2011off marks or GPA for your chosen course on the university’s official admission brochure or website.
+
+---
+
+## 2\ufe0f\u20e3 Prepare Your Documents
+
+| Document | Why It’s Needed |
+|----------|-----------------|
+| **Application Form** | Completed online or hard copy. |
+| **Mark Sheets** | 10+2, Bachelor’s, Master’s (as applicable). |
+| **Degree Certificate** | Original + photocopies. |
+| **Passport\u2011size Photos** | Usually 2–4 recent photos. |
+| **Identity Proof** | Aadhar card, PAN card, or passport. |
+| **Entrance Exam Score** | If the program requires an entrance test (e.g., JEE, NEET, GATE). |
+| **Letter of Recommendation** | For certain PG or research programs. |
+| **Statement of Purpose** | For research or some PG courses. |
+| **Fee Receipt** | Proof of payment of application fee. |
+
+> **Pro tip:** Keep both originals and photocopies ready, and double\u2011check that all files are in the required format (PDF, JPEG, etc.).
+
+---
+
+## 3\ufe0f\u20e3 Apply Online (Recommended)
+
+1. **Go to the Official Site**  
+   \U0001f449 https://www.marwadiuniversity.edu.in/  
+   Look for the “Admissions” or “Apply Now” section.
+
+2. **Create an Account**  
+   Register with your email and a secure password.
+
+3. **Fill Out the Application Form**  
+   - Select your program and branch.  
+   - Enter personal details, academic history, and upload the required documents.
+
+4. **Pay the Application Fee**  
+   - Payment options: credit/debit card, net banking, UPI, etc.  
+   - Save the payment receipt; you’ll need it for verification.
+
+5. **Submit**  
+   Once you’re satisfied, hit “Submit.” You’ll receive a confirmation email with a reference number.
+
+---
+
+## 4\ufe0f\u20e3 After Submission
+
+| Step | What to Do |
+|------|------------|
+| **Track Your Application** | Use the reference number on the university portal to check status. |
+| **Attend Entrance Exam (if required)** | Register for the exam (e.g., JEE, NEET, GATE) and prepare accordingly. |
+| **Interview / Counseling** | Some programs may require an interview or counseling session. |
+| **Fee Payment** | Pay the tuition fee as per the payment schedule once admitted. |
+| **Document Verification** | Submit original documents for verification (usually in person or via courier). |
+| **Enrollment** | Complete the enrollment process and receive your student ID. |
+
+---
+
+## 5\ufe0f\u20e3 Common Questions
+
+| Question | Quick Answer |
+|----------|--------------|
+| **What’s the deadline?** | It varies by program. Check the “Admission Calendar” on the website. |
+| **Can I apply for multiple programs?** | Yes, but you’ll need to pay separate application fees for each. |
+| **Is there a fee waiver?** | Some categories (SC/ST/OBC, economically weaker sections) may qualify. Check the fee waiver section. |
+| **How long does the process take?** | Typically 4–6 weeks from application to admission offer, but it can vary. |
+
+---
+
+### Need More Help?
+
+- **Specific program details?**  
+- **Entrance exam dates?**  
+- **Fee waiver eligibility?**  
+
+Just let me know, and I’ll provide the exact information you need!
+2026-01-02 13:52:01,214 127.0.0.1 - - [02/Jan/2026 13:52:01] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:52:04,798 127.0.0.1 - - [02/Jan/2026 13:52:04] "GET / HTTP/1.1" 200 -
+2026-01-02 13:52:04,813 127.0.0.1 - - [02/Jan/2026 13:52:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:52:04,815 127.0.0.1 - - [02/Jan/2026 13:52:04] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:52:04,815 127.0.0.1 - - [02/Jan/2026 13:52:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:52:08,475 127.0.0.1 - - [02/Jan/2026 13:52:08] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:52:08,476 127.0.0.1 - - [02/Jan/2026 13:52:08] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:52:10,944 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:52:10,944 USER(20260102135100): How to take adminssion in marwadi university
+2026-01-02 13:52:10,944 BOT: Hello! \U0001f44b I’m happy to help with any questions you have about shopping, orders, products, account info, or delivery. However, I’m not able to provide information on university admissions. If you need assistance with anything related to your shopping experience, feel free to let me know!
+2026-01-02 13:52:10,944 127.0.0.1 - - [02/Jan/2026 13:52:10] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:52:33,235 127.0.0.1 - - [02/Jan/2026 13:52:33] "GET / HTTP/1.1" 200 -
+2026-01-02 13:52:33,250 127.0.0.1 - - [02/Jan/2026 13:52:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:52:33,251 127.0.0.1 - - [02/Jan/2026 13:52:33] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:52:33,252 127.0.0.1 - - [02/Jan/2026 13:52:33] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:52:36,614 127.0.0.1 - - [02/Jan/2026 13:52:36] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:52:36,615 127.0.0.1 - - [02/Jan/2026 13:52:36] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 13:52:38,110 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:52:38,117 USER(20260102135100): how to order in zomato
+2026-01-02 13:52:38,117 BOT: Hey there! \U0001f44b Ordering food on Zomato is super easy. Here’s a quick step\u2011by\u2011step guide to help you get your favorite meals delivered right to your doorstep:
+
+---
+
+## 1\ufe0f\u20e3 Get the App (or Use the Web)
+
+| Option | How to Access |
+|--------|---------------|
+| **Mobile App** | Download from the App Store (iOS) or Google Play (Android). |
+| **Website** | Visit https://www.zomato.com/ and sign in or create an account. |
+
+---
+
+## 2\ufe0f\u20e3 Sign In / Create an Account
+
+1. **Open the app or website.**  
+2. Tap **“Sign In”** (or “Create Account”).  
+3. You can register with:
+   - Email address
+   - Phone number
+   - Google, Facebook, or Apple ID (if you’re on iOS)
+
+> **Tip:** If you already have an account, just log in. If not, the sign\u2011up process takes less than a minute.
+
+---
+
+## 3\ufe0f\u20e3 Set Your Delivery Location
+
+1. In the search bar, type your **address** or let the app use your GPS location.  
+2. Zomato will show restaurants that deliver to that area.
+
+---
+
+## 4\ufe0f\u20e3 Browse Restaurants & Menu
+
+1. **Explore** categories (e.g., “Pizza,” “Biryani,” “Desserts”) or use the search bar for a specific dish.  
+2. Tap a restaurant to see its menu, ratings, and reviews.  
+3. **Add items** to your cart by tapping the “Add” button next to each dish.  
+4. You can adjust quantities, add special instructions, or choose sides.
+
+---
+
+## 5\ufe0f\u20e3 Review Your Cart
+
+1. Tap the cart icon (usually at the top right).  
+2. Double\u2011check items, quantities, and any special notes.  
+3. If you’re happy, tap **“Proceed to Checkout.”**
+
+---
+
+## 6\ufe0f\u20e3 Checkout & Payment
+
+1. **Delivery Address** – Confirm or edit your address.  
+2. **Payment Method** – Choose from:
+   - Credit/Debit Card
+   - Net Banking
+   - UPI
+   - Cash on Delivery (if available in your area)
+   - Zomato Wallet (if you have one)
+
+3. **Apply Promo Codes** – If you have a discount code, enter it here.  
+4. **Place Order** – Tap **“Place Order”**. You’ll receive a confirmation screen with an order number.
+
+---
+
+## 7\ufe0f\u20e3 Track Your Order
+
+- In the app, go to **“Orders”** \u2192 **“Active Orders.”**  
+- You’ll see real\u2011time updates: “Preparing,” “Out for delivery,” etc.  
+- The delivery person’s contact info is usually available if you need to call or message them.
+
+---
+
+## 8\ufe0f\u20e3 After Delivery
+
+- Rate the food and the delivery experience.  
+- If there’s an issue (wrong order, late delivery, etc.), tap **“Help”** or **“Report a Problem”** in the order details.
+
+---
+
+### Quick FAQ
+
+| Question | Answer |
+|----------|--------|
+| **Can I cancel an order?** | Yes, but only before the restaurant starts preparing. Tap “Cancel” in the order details. |
+| **Is there a delivery fee?** | It varies by restaurant and distance. Some restaurants offer free delivery for orders above a certain amount. |
+| **How do I tip?** | You can add a tip during checkout or after the order is delivered. |
+
+---
+
+That’s it! \U0001f389 Now you’re ready to enjoy delicious food from the comfort of your home. If you run into any hiccups or have more questions, just let me know. Happy eating!
+2026-01-02 13:52:38,117 127.0.0.1 - - [02/Jan/2026 13:52:38] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:53:05,044 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:53:05,044 USER(20260102135100): how to order on Flipkart
+2026-01-02 13:53:05,044 BOT: Hey there! \U0001f44b Ordering on Flipkart is a breeze once you know the steps. Below is a quick, friendly guide to help you shop like a pro—whether you’re using the app or the website.
+
+---
+
+## 1\ufe0f\u20e3 Get Started
+
+| Platform | How to Access |
+|----------|---------------|
+| **Mobile App** | Download from the App Store (iOS) or Google Play (Android). |
+| **Website** | Visit https://www.flipkart.com/ and sign in or create an account. |
+
+---
+
+## 2\ufe0f\u20e3 Sign In / Create an Account
+
+1. **Open** the app or website.  
+2. Tap **“Login”** (or “Create Account”).  
+3. Register with:
+   - Email address
+   - Phone number
+   - Google or Facebook (if you prefer)
+
+> **Tip:** If you already have an account, just log in. It saves time for future orders.
+
+---
+
+## 3\ufe0f\u20e3 Find What You Want
+
+1. **Search Bar** – Type the product name or brand.  
+2. **Categories** – Browse by “Electronics,” “Fashion,” “Home & Furniture,” etc.  
+3. **Filters** – Narrow down by price, brand, ratings, or features.  
+4. **Product Page** – Tap to see details, images, reviews, and seller info.
+
+---
+
+## 4\ufe0f\u20e3 Add to Cart
+
+1. On the product page, select any options (size, color, quantity).  
+2. Tap **“Add to Cart.”**  
+3. You’ll see a cart icon with a number indicating items added.
+
+---
+
+## 5\ufe0f\u20e3 Review Your Cart
+
+1. Tap the cart icon (usually at the top right).  
+2. Check each item, adjust quantities, or remove anything you don’t want.  
+3. If you’re ready, tap **“Proceed to Checkout.”**
+
+---
+
+## 6\ufe0f\u20e3 Checkout & Payment
+
+1. **Delivery Address** – Confirm or add a new address.  
+2. **Payment Method** – Choose from:
+   - Credit/Debit Card
+   - Net Banking
+   - UPI
+   - Flipkart Pay Later (if eligible)
+   - Cash on Delivery (COD) – available in many regions
+
+3. **Apply Promo Codes** – If you have a discount code, enter it in the “Apply Coupon” field.  
+4. **Place Order** – Tap **“Place Order.”** You’ll receive an order confirmation with a tracking number.
+
+---
+
+## 7\ufe0f\u20e3 Track Your Order
+
+- Go to **“My Orders”** \u2192 **“Active Orders.”**  
+- Flipkart provides real\u2011time updates: “Order Placed,” “Shipped,” “Out for Delivery,” etc.  
+- You can also track the courier’s status via the provided link.
+
+---
+
+## 8\ufe0f\u20e3 After Delivery
+
+- **Confirm Receipt** – Flipkart will ask you to confirm that the item arrived in good condition.  
+- **Rate & Review** – Leave a rating and review to help future shoppers.  
+- **Return/Exchange** – If there’s an issue, tap **“Return/Exchange”** in the order details and follow the prompts.
+
+---
+
+### Quick FAQ
+
+| Question | Answer |
+|----------|--------|
+| **Can I cancel an order?** | Yes, you can cancel before the order is shipped. Go to “My Orders” \u2192 “Cancel Order.” |
+| **Is there a delivery fee?** | Delivery charges vary by seller and distance. Some sellers offer free delivery for orders above a certain amount. |
+| **What if I want to change the delivery address?** | You can edit the address before the order is shipped. Once it’s out for delivery, you’ll need to contact Flipkart support. |
+| **How do I use Flipkart Pay Later?** | Add the product to your cart, choose “Flipkart Pay Later” at checkout, and follow the on\u2011screen steps. |
+
+---
+
+That’s all there is to it! \U0001f389 Now you’re ready to shop Flipkart like a champ. If you run into any hiccups or have more questions, just let me know—happy shopping!
+2026-01-02 13:53:05,047 127.0.0.1 - - [02/Jan/2026 13:53:05] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:53:25,103 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 13:53:25,103 USER(20260102135100): to cancel order on Flipkart
+2026-01-02 13:53:25,103 BOT: Hey there! \U0001f44b  
+Cancelling a Flipkart order is quick and easy—just follow these steps:
+
+---
+
+## 1\ufe0f\u20e3 Open the Flipkart App or Website
+
+- **App:** Launch the Flipkart app on your phone.  
+- **Website:** Go to https://www.flipkart.com/ and log in.
+
+---
+
+## 2\ufe0f\u20e3 Go to “My Orders”
+
+- Tap the **“Account”** icon (bottom right on the app) or click **“My Orders”** in the menu on the website.
+
+---
+
+## 3\ufe0f\u20e3 Find the Order You Want to Cancel
+
+- Scroll through your recent orders or use the search bar to locate the specific order.
+
+---
+
+## 4\ufe0f\u20e3 Check the Order Status
+
+- **Can Cancel?**  
+  - If the status shows **“Order Placed”** or **“Processing”**, you can cancel.  
+  - If it’s already **“Shipped”** or **“Out for Delivery,”** cancellation isn’t possible; you’ll need to initiate a return instead.
+
+---
+
+## 5\ufe0f\u20e3 Cancel the Order
+
+- **App:**  
+  1. Tap the order.  
+  2. Tap **“Cancel Order.”**  
+  3. Choose a reason from the dropdown (optional).  
+  4. Confirm the cancellation.
+
+- **Website:**  
+  1. Click the order.  
+  2. Click **“Cancel Order.”**  
+  3. Select a reason (optional).  
+  4. Confirm.
+
+---
+
+## 6\ufe0f\u20e3 Confirmation & Refund
+
+- You’ll receive an email/SMS confirming the cancellation.  
+- The refund will be processed to your original payment method within 3–5 business days (depending on the payment gateway).
+
+---
+
+## 7\ufe0f\u20e3 If You Can’t Cancel
+
+- **Order already shipped:**  
+  - Go to **“Return/Exchange”** in the order details.  
+  - Follow the return instructions to get a refund after the item is returned.
+
+- **Need help:**  
+  - Tap **“Help”** \u2192 **“Contact Us”** in the app or visit Flipkart’s help center: https://www.flipkart.com/help-center.  
+  - You can also call Flipkart customer support at **1800\u201111\u20112211** (India) or use the chat option.
+
+---
+
+### Quick Tips
+
+| Tip | Why It Helps |
+|-----|--------------|
+| **Act fast** | Cancellation is only possible before the order is shipped. |
+| **Keep the order ID handy** | Makes it easier for support to locate your order. |
+| **Check the return window** | If you’re returning a shipped item, you usually have 30 days from delivery. |
+
+---
+
+That’s it! \U0001f389 If you hit any snags or have more questions, just let me know—I’m here to help. Happy shopping!
+2026-01-02 13:53:25,103 127.0.0.1 - - [02/Jan/2026 13:53:25] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 13:53:39,349 127.0.0.1 - - [02/Jan/2026 13:53:39] "GET / HTTP/1.1" 200 -
+2026-01-02 13:53:39,373 127.0.0.1 - - [02/Jan/2026 13:53:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 13:53:39,375 127.0.0.1 - - [02/Jan/2026 13:53:39] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 13:53:39,375 127.0.0.1 - - [02/Jan/2026 13:53:39] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 14:40:36,807 127.0.0.1 - - [02/Jan/2026 14:40:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 14:40:36,817 127.0.0.1 - - [02/Jan/2026 14:40:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-01-02 14:40:49,808 127.0.0.1 - - [02/Jan/2026 14:40:49] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 14:40:49,808 127.0.0.1 - - [02/Jan/2026 14:40:49] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 14:40:53,968 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 14:40:53,974 USER(20260102135100): hiii
+2026-01-02 14:40:53,974 BOT: Hello! \U0001f44b How can I help you with your studies, courses, or any academic questions today?
+2026-01-02 14:40:53,974 127.0.0.1 - - [02/Jan/2026 14:40:53] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:06:14,741 127.0.0.1 - - [02/Jan/2026 15:06:14] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 15:06:14,741 127.0.0.1 - - [02/Jan/2026 15:06:14] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 15:06:17,129 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:06:17,135 USER(20260102135100): hiii
+2026-01-02 15:06:17,135 BOT: Hi there! \U0001f44b How can I help you with your studies, courses, or any academic questions today?
+2026-01-02 15:06:17,135 127.0.0.1 - - [02/Jan/2026 15:06:17] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:07:16,434 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:07:16,434 USER(20260102135100): give detail about std 10 student
+2026-01-02 15:07:16,434 BOT: Hello! \U0001f44b  
+Let’s dive into what a 10th\u2011standard (Std\u201110) student’s world looks like—curriculum, exams, study habits, and a few tips to help them shine. Whether you’re a student, parent, or teacher, this overview should give you a clear picture.
+
+---
+
+## 1\ufe0f\u20e3 What’s the 10th\u2011Standard Journey All About?
+
+| Aspect | What It Means |
+|--------|---------------|
+| **Age Range** | Typically 15–16 years old (sometimes 14–17, depending on the school system). |
+| **Academic Milestone** | Marks the “middle” of secondary education. In many countries, it’s the last year of “secondary” before “higher secondary” (11th–12th). |
+| **Key Exams** | • **State Board / CBSE / ICSE** (India) <br>• **SAT/ACT** (USA) for college prep <br>• **GCSE** (UK) <br>• **O\u2011Levels** (Commonwealth) |
+| **Purpose** | • Assess foundational knowledge. <br>• Provide a baseline for future specialization (science, commerce, arts). <br>• Often a “gateway” to higher secondary streams. |
+
+---
+
+## 2\ufe0f\u20e3 Typical Curriculum (India\u2011Style Example)
+
+| Subject | Core Topics (Typical) | Why It Matters |
+|---------|-----------------------|----------------|
+| **Mathematics** | Algebra, Geometry, Trigonometry, Statistics, Basic Calculus | Builds problem\u2011solving and logical reasoning skills. |
+| **Science** | Physics (Mechanics, Electricity), Chemistry (Basic Concepts), Biology (Human Body, Ecology) | Introduces scientific method and real\u2011world applications. |
+| **Social Science** | History (Indian & World), Geography (Physical & Human), Civics, Economics | Develops critical thinking about society and governance. |
+| **Languages** | Mother tongue (Hindi, Tamil, etc.), English, Second language (if applicable) | Enhances communication, reading comprehension, and cultural awareness. |
+| **Computer Science / IT** | Basics of programming, Internet, Digital Literacy | Prepares students for a tech\u2011driven world. |
+| **Physical Education / Arts** | Sports, Music, Visual Arts | Encourages holistic development. |
+
+> **Note:** The exact subjects and depth vary by board (CBSE, ICSE, State Boards) and school (public vs. private).
+
+---
+
+## 3\ufe0f\u20e3 Exam Pattern & Assessment
+
+| Exam | Format | Weightage |
+|------|--------|-----------|
+| **Board Exam** | Paper\u2011based (multiple choice, short answer, long answer) | 70–80% of final grade |
+| **Class Test / Internal Assessment** | Periodic tests, projects, assignments | 20–30% |
+| **Practicals** | Lab work, fieldwork | 10–15% (especially in science) |
+
+- **Marking Scheme**: Usually +3 for correct, -1 for wrong (CBSE), or +4/-1 (ICSE).  
+- **Result Impact**: Scores determine eligibility for higher secondary streams and scholarships.
+
+---
+
+## 4\ufe0f\u20e3 Study Tips for 10th\u2011Standard Students
+
+| Tip | How to Apply |
+|-----|--------------|
+| **Create a Study Schedule** | Allocate 1–2 hours per subject daily; use a planner or digital calendar. |
+| **Active Recall** | After reading, close the book and recite key points. |
+| **Practice Past Papers** | Familiarize with exam patterns and time management. |
+| **Group Study** | Discuss difficult topics with peers; teaching others reinforces learning. |
+| **Balanced Breaks** | 5–10 minute breaks every 45–50 minutes to avoid burnout. |
+| **Healthy Lifestyle** | Adequate sleep (8–9 hrs), nutritious meals, and regular exercise. |
+| **Seek Help Early** | Don’t wait until the last minute to ask teachers or tutors about doubts. |
+
+---
+
+## 5\ufe0f\u20e3 Common Challenges & How to Overcome Them
+
+| Challenge | Quick Fix |
+|-----------|-----------|
+| **Time Management** | Use a “Pomodoro” timer (25\u2011min focus + 5\u2011min break). |
+| **Procrastination** | Set micro\u2011goals (e.g., “Finish 5 math problems”). |
+| **Exam Anxiety** | Practice deep breathing, visualize success, and keep a “stress\u2011relief” routine (music, short walks). |
+| **Balancing Extracurriculars** | Prioritize tasks; allocate fixed slots for sports or clubs. |
+
+---
+
+## 6\ufe0f\u20e3 Beyond the Classroom: Building a Strong Foundation
+
+| Area | Why It’s Important |
+|------|--------------------|
+| **Critical Thinking** | Helps analyze problems beyond rote answers. |
+| **Communication Skills** | Writing essays, presentations, and debates boost confidence. |
+| **Digital Literacy** | Knowing how to research online, use spreadsheets, and code basics is increasingly valuable. |
+| **Self\u2011Reflection** | Journaling or reflecting on learning helps identify strengths and areas for growth. |
+
+---
+
+## 7\ufe0f\u20e3 Quick Resources
+
+| Resource | What It Offers |
+|----------|----------------|
+| **CBSE/ICSE Official Sites** | Past papers, syllabus, exam dates. |
+| **Khan Academy** | Free video lessons for math, science, and more. |
+| **Quizlet** | Flashcards for quick revision. |
+| **Google Classroom / Microsoft Teams** | Classroom collaboration tools. |
+| **YouTube Channels** | *Khan Academy*, *CrashCourse*, *Unacademy* (India). |
+
+---
+
+### Final Thought
+
+The 10th grade is a pivotal year—think of it as the “launchpad” for future academic and career paths. With a solid study routine, balanced lifestyle, and a curious mindset, students can not only ace their exams but also develop lifelong learning habits.
+
+If you’d like deeper insights into a specific subject, exam strategy, or study plan, just let me know! Happy learning!
+2026-01-02 15:07:16,434 127.0.0.1 - - [02/Jan/2026 15:07:16] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:07:58,607 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:07:58,613 USER(20260102135100): give refernce paper for gujrati
+2026-01-02 15:07:58,613 BOT: 
+2026-01-02 15:07:58,613 127.0.0.1 - - [02/Jan/2026 15:07:58] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:08:22,588 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:08:22,588 USER(20260102135100): give a gujrati subject sam[le paper
+2026-01-02 15:08:22,588 BOT: **Gujarati\u202fSubject\u202f–\u202fSample\u202fPaper**  
+*(For\u202fClass\u202f10\u202f/\u202fStd\u201110\u202fstudents –\u202fGeneral\u202fCurriculum)*  
+
+---
+
+### 1.\u202f\u0aaa\u0abe\u0aa0\u202f(Reading Comprehension)  
+*(Read the passage carefully and answer the questions in Gujarati.)*  
+
+**\u0aaa\u0abe\u0aa0**  
+> “\u0aaa\u0ac3\u0aa5\u0acd\u0ab5\u0ac0 \u0aaa\u0ab0\u0aa8\u0ac1\u0a82 \u0a9c\u0ac0\u0ab5\u0aa8\u202f—\u202f\u0a8f\u0a95\u202f\u0a85\u0aa6\u0acd\u0aad\u0ac1\u0aa4\u202f\u0ab8\u0aab\u0ab0”  
+>  
+> \u0aaa\u0ac3\u0aa5\u0acd\u0ab5\u0ac0\u202f—\u202f\u0a85\u0aae\u0abe\u0ab0\u0ac0\u202f\u0a98\u0ab0\u202f—\u202f\u0a8f\u0a95\u202f\u0a9c\u0a9f\u0abf\u0ab2\u202f\u0aaa\u0acd\u0ab0\u0aa3\u0abe\u0ab2\u0ac0\u202f\u0a9b\u0ac7.\u202f\u0aa4\u0ac7\u202f\u0aae\u0abe\u0a82\u202f\u0ab5\u0abf\u0ab5\u0abf\u0aa7\u202f\u0aaa\u0acd\u0ab0\u0a95\u0abe\u0ab0\u202f\u0aa8\u0ac0\u202f\u0a9c\u0ac8\u0ab5\u0abf\u0a95\u202f\u0a85\u0aa8\u0ac7\u202f\u0a85\u0a9c\u0ac8\u0ab5\u0abf\u0a95\u202f\u0aa4\u0aa4\u0acd\u0ab5\u0acb\u202f\u0ab8\u0abe\u0aa5\u0ac7\u202f\u0ab8\u0abe\u0aa5\u0ac7\u202f\u0ab5\u0abf\u0ab5\u0abf\u0aa7\u202f\u0a9c\u0ac0\u0ab5\u202f\u0aaa\u0acd\u0ab0\u0a9c\u0abe\u0aa4\u0abf\u0a93\u202f\u0ab5\u0ab8\u0ac7\u202f\u0a9b\u0ac7.\u202f\u0a86\u202f\u0aaa\u0acd\u0ab0\u0aa3\u0abe\u0ab2\u0ac0\u202f\u0aae\u0abe\u0a82\u202f\u0aa6\u0ab0\u0ac7\u0a95\u202f\u0a9c\u0ac0\u0ab5\u202f\u0a85\u0aa8\u0ac7\u202f\u0aa4\u0aa4\u0acd\u0ab5\u202f\u0a8f\u0a95\u202f\u0aac\u0ac0\u0a9c\u0abe\u0aa8\u0ac7\u202f\u0aaa\u0acd\u0ab0\u0aad\u0abe\u0ab5\u0abf\u0aa4\u202f\u0a95\u0ab0\u0ac7\u202f\u0a9b\u0ac7,\u202f\u0a9c\u0ac7\u202f\u0ab8\u0a82\u0aa4\u0ac1\u0ab2\u0aa8\u202f\u0aac\u0aa8\u0abe\u0ab5\u0ac7\u202f\u0a9b\u0ac7.\u202f\u0a9c\u0acd\u0aaf\u0abe\u0ab0\u0ac7\u202f\u0a95\u0acb\u0a88\u202f\u0a8f\u0a95\u202f\u0aad\u0abe\u0a97\u202f\u0aac\u0aa6\u0ab2\u0ac7\u202f\u0a9b\u0ac7\u202f\u0aa4\u0acb\u202f\u0ab8\u0a82\u0aaa\u0ac2\u0ab0\u0acd\u0aa3\u202f\u0aaa\u0acd\u0ab0\u0aa3\u0abe\u0ab2\u0ac0\u202f\u0aaa\u0ab0\u202f\u0a85\u0ab8\u0ab0\u202f\u0aaa\u0aa1\u0ac7\u202f\u0a9b\u0ac7.\u202f\u0a86\u202f\u0ab8\u0a82\u0aa4\u0ac1\u0ab2\u0aa8\u202f\u0a9c\u202f\u0aaa\u0ac3\u0aa5\u0acd\u0ab5\u0ac0\u202f\u0aa8\u0ac7\u202f\u0a9c\u0ac0\u0ab5\u0a82\u0aa4\u202f\u0a85\u0aa8\u0ac7\u202f\u0ab8\u0acd\u0ab5\u0ab8\u0acd\u0aa5\u202f\u0aac\u0aa8\u0abe\u0ab5\u0ac7\u202f\u0a9b\u0ac7.  
+
+**\u0aaa\u0acd\u0ab0\u0ab6\u0acd\u0aa8\u0acb**  
+1.\u202f\u0aaa\u0ac3\u0aa5\u0acd\u0ab5\u0ac0\u202f\u0aa8\u0ac7\u202f“\u0a9c\u0a9f\u0abf\u0ab2\u202f\u0aaa\u0acd\u0ab0\u0aa3\u0abe\u0ab2\u0ac0”\u202f\u0a95\u0ac7\u0ab5\u0ac0\u202f\u0ab0\u0ac0\u0aa4\u0ac7\u202f\u0ab5\u0ab0\u0acd\u0aa3\u0ab5\u0ab5\u0abe\u0aae\u0abe\u0a82\u202f\u0a86\u0ab5\u0acd\u0aaf\u0ac1\u0a82\u202f\u0a9b\u0ac7?  
+2.\u202f\u0aaa\u0ac3\u0aa5\u0acd\u0ab5\u0ac0\u202f\u0aae\u0abe\u0a82\u202f“\u0a9c\u0ac0\u0ab5\u202f\u0aaa\u0acd\u0ab0\u0a9c\u0abe\u0aa4\u0abf\u0a93”\u202f\u0a85\u0aa8\u0ac7\u202f“\u0a85\u0a9c\u0ac8\u0ab5\u0abf\u0a95\u202f\u0aa4\u0aa4\u0acd\u0ab5\u0acb”\u202f\u0aa8\u0ac0\u202f\u0aad\u0ac2\u0aae\u0abf\u0a95\u0abe\u202f\u0ab6\u0ac1\u0a82\u202f\u0a9b\u0ac7?  
+3.\u202f\u0a9c\u0acb\u202f\u0a95\u0acb\u0a88\u202f\u0a8f\u0a95\u202f\u0aad\u0abe\u0a97\u202f\u0aac\u0aa6\u0ab2\u0ac7\u202f\u0aa4\u0acb\u202f\u0ab8\u0a82\u0aaa\u0ac2\u0ab0\u0acd\u0aa3\u202f\u0aaa\u0acd\u0ab0\u0aa3\u0abe\u0ab2\u0ac0\u202f\u0aaa\u0ab0\u202f\u0a95\u0ac7\u0ab5\u0ac0\u202f\u0a85\u0ab8\u0ab0\u202f\u0aaa\u0aa1\u0ac7\u202f\u0a9b\u0ac7?  
+4.\u202f\u0a86\u202f\u0aaa\u0abe\u0aa0\u202f\u0aae\u0abe\u0a82\u202f“\u0ab8\u0a82\u0aa4\u0ac1\u0ab2\u0aa8”\u202f\u0aa8\u0acb\u202f\u0a85\u0ab0\u0acd\u0aa5\u202f\u0ab6\u0ac1\u0a82\u202f\u0a9b\u0ac7?  
+
+---
+
+### 2.\u202f\u0ab5\u0acd\u0aaf\u0abe\u0a95\u0ab0\u0aa3\u202f(Grammar)  
+*(Fill in the blanks with the correct form of the word in parentheses.)*  
+
+| \u0aa8\u0a82. | \u0ab5\u0abe\u0a95\u0acd\u0aaf | \u0a96\u0abe\u0ab2\u0ac0 \u0a9c\u0a97\u0acd\u0aaf\u0abe | \u0ab6\u0aac\u0acd\u0aa6 (\u0aae\u0ac2\u0ab3) |
+|-----|-------|-------------|------------|
+| 1 | \u0ab9\u0ac1\u0a82\u202f(\u0aaa\u0ac1\u0ab8\u0acd\u0aa4\u0a95)\u202f\u0ab5\u0abe\u0a82\u0a9a\u0ac0\u202f\u0ab0\u0ab9\u0acd\u0aaf\u0acb\u202f\u0a9b\u0ac1\u0a82. | ___ | \u0aaa\u0ac1\u0ab8\u0acd\u0aa4\u0a95 |
+| 2 |\u202f\u0aa4\u0aae\u0ac7\u202f(\u0ab8\u0abe\u0a82\u0a9c)\u202f\u0aae\u0abe\u0a82\u202f\u0a95\u0acd\u0aaf\u0abe\u0a82\u202f\u0a9c\u0ab6\u0acb? | ___ | \u0ab8\u0abe\u0a82\u0a9c |
+| 3 |\u202f\u0a86\u202f(\u0aae\u0abf\u0aa4\u0acd\u0ab0)\u202f\u0aae\u0aa8\u0ac7\u202f\u0aae\u0aa6\u0aa6\u202f\u0a95\u0ab0\u0ab6\u0ac7. | ___ | \u0aae\u0abf\u0aa4\u0acd\u0ab0 |
+| 4 |\u202f\u0aa4\u0ac7\u202f(\u0aac\u0acb\u0ab2)\u202f\u0ab8\u0ac1\u0aa7\u0abe\u0ab0\u0acb\u202f\u0a9b\u0ac7. | ___ | \u0aac\u0acb\u0ab2 |
+| 5 |\u202f\u0a85\u0aae\u0ac7\u202f(\u0aae\u0abe\u0ab0\u0acd\u0a97)\u202f\u0aaa\u0ab0\u202f\u0a9a\u0abe\u0ab2\u0ac0\u202f\u0ab0\u0ab9\u0acd\u0aaf\u0abe\u202f\u0a9b\u0ac0\u0a8f. | ___ | \u0aae\u0abe\u0ab0\u0acd\u0a97 |
+
+**\u0a9c\u0ab5\u0abe\u0aac\u0acb**  
+1.\u202f\u0aaa\u0ac1\u0ab8\u0acd\u0aa4\u0a95  
+2.\u202f\u0ab8\u0abe\u0a82\u0a9c  
+3.\u202f\u0aae\u0abf\u0aa4\u0acd\u0ab0  
+4.\u202f\u0aac\u0acb\u0ab2  
+5.\u202f\u0aae\u0abe\u0ab0\u0acd\u0a97  
+
+---
+
+### 3.\u202f\u0ab2\u0ac7\u0a96\u0aa8\u202f(Essay)  
+*(Write a short essay of 150–200\u202f\u0ab6\u0aac\u0acd\u0aa6\u0acb on the following topic in Gujarati.)*  
+
+**\u0ab5\u0abf\u0ab7\u0aaf**  
+> “\u0aae\u0abe\u0ab0\u0ac0\u202f\u0ab8\u0acd\u0ab5\u0aaa\u0acd\u0aa8\u202f\u0a95\u0abe\u0ab0\u0acd\u0aaf”  
+
+**\u0aae\u0abe\u0ab0\u0acd\u0a97\u0aa6\u0ab0\u0acd\u0ab6\u0aa8**  
+-\u202f\u0aaa\u0ab0\u0abf\u0a9a\u0aaf\u202f(1\u202f\u0ab5\u0abe\u0a95\u0acd\u0aaf)  
+-\u202f\u0a95\u0abe\u0ab0\u0aa3\u202f(2\u202f\u0ab5\u0abe\u0a95\u0acd\u0aaf\u0acb)  
+-\u202f\u0ab2\u0a95\u0acd\u0ab7\u0acd\u0aaf\u0acb\u202f(2\u202f\u0ab5\u0abe\u0a95\u0acd\u0aaf\u0acb)  
+-\u202f\u0ab8\u0aae\u0abe\u0aaa\u0acd\u0aa4\u0abf\u202f(1\u202f\u0ab5\u0abe\u0a95\u0acd\u0aaf)  
+
+---
+
+### 4.\u202f\u0ab6\u0aac\u0acd\u0aa6\u202f\u0aad\u0a82\u0aa1\u0abe\u0ab0\u202f(Word Bank)  
+*(Choose the correct meaning of the word from the options.)*  
+
+| \u0ab6\u0aac\u0acd\u0aa6 | \u0ab5\u0abf\u0a95\u0ab2\u0acd\u0aaa\u0acb | \u0aaf\u0acb\u0a97\u0acd\u0aaf \u0a9c\u0ab5\u0abe\u0aac |
+|------|--------|--------------|
+| 1.\u202f\u0ab8\u0ab9\u0a9c | a) \u0ab8\u0ab0\u0ab3 b) \u0aae\u0ac1\u0ab6\u0acd\u0a95\u0ac7\u0ab2 c) \u0a9c\u0a9f\u0abf\u0ab2 | a) \u0ab8\u0ab0\u0ab3 |
+| 2.\u202f\u0a89\u0aa4\u0acd\u0ab8\u0ab5 | a) \u0aa6\u0ac1\u0a83\u0a96 b) \u0a86\u0aa8\u0a82\u0aa6 c) \u0aa4\u0aa3\u0abe\u0ab5 | b) \u0a86\u0aa8\u0a82\u0aa6 |
+| 3.\u202f\u0ab8\u0a82\u0ab5\u0abe\u0aa6 | a) \u0a9a\u0ab0\u0acd\u0a9a\u0abe b) \u0a8f\u0a95\u0ab2\u0abe\u0aaa c) \u0a97\u0ac7\u0ab0\u0ab8\u0aae\u0a9c | a) \u0a9a\u0ab0\u0acd\u0a9a\u0abe |
+| 4.\u202f\u0aaa\u0acd\u0ab0\u0ab5\u0ac3\u0aa4\u0acd\u0aa4\u0abf | a) \u0aa8\u0abf\u0ab7\u0acd\u0a95\u0acd\u0ab0\u0abf\u0aaf\u0aa4\u0abe b) \u0a95\u0abe\u0ab0\u0acd\u0aaf c) \u0aa8\u0abf\u0ab0\u0abe\u0ab6\u0abe | b) \u0a95\u0abe\u0ab0\u0acd\u0aaf |
+| 5.\u202f\u0ab8\u0a82\u0ab8\u0acd\u0a95\u0ac3\u0aa4\u0abf | a) \u0aaa\u0ab0\u0a82\u0aaa\u0ab0\u0abe b) \u0a9f\u0ac7\u0a95\u0acd\u0aa8\u0acb\u0ab2\u0acb\u0a9c\u0ac0 c) \u0aad\u0acb\u0a9c\u0aa8 | a) \u0aaa\u0ab0\u0a82\u0aaa\u0ab0\u0abe |
+
+---
+
+### 5.\u202f\u0ab8\u0a82\u0a95\u0acd\u0ab7\u0abf\u0aaa\u0acd\u0aa4\u202f\u0aaa\u0acd\u0ab0\u0ab6\u0acd\u0aa8\u0acb\u202f(Short\u2011Answer)  
+*(Answer the following questions in one sentence.)*  
+
+1.\u202f\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0\u202f\u0aad\u0abe\u0ab7\u0abe\u0aa8\u0ac1\u0a82\u202f\u0aae\u0ac1\u0a96\u0acd\u0aaf\u202f\u0ab2\u0a95\u0acd\u0ab7\u0aa3\u202f\u0ab6\u0ac1\u0a82\u202f\u0a9b\u0ac7?  
+2.\u202f“\u0ab5\u0ab0\u0acd\u0aa3\u0aae\u0abe\u0ab3\u0abe”\u202f\u0aae\u0abe\u0a82\u202f\u0a95\u0ac7\u0a9f\u0ab2\u0abe\u202f\u0a85\u0a95\u0acd\u0ab7\u0ab0\u0acb\u202f\u0a9b\u0ac7?  
+3.\u202f“\u0ab8\u0a82\u0ab8\u0acd\u0a95\u0ac3\u0aa4\u0abf”\u202f\u0aa8\u0acb\u202f\u0a85\u0ab0\u0acd\u0aa5\u202f\u0ab6\u0ac1\u0a82\u202f\u0a9b\u0ac7?  
+4.\u202f“\u0aae\u0ab9\u0abe\u0aa8\u202f\u0ab5\u0abf\u0a9c\u0acd\u0a9e\u0abe\u0aa8\u0ac0\u0a93”\u202f\u0aae\u0abe\u0a82\u202f\u0a95\u0acb\u0aa3\u202f\u0a9b\u0ac7?  
+5.\u202f“\u0ab8\u0abe\u0ab9\u0abf\u0aa4\u0acd\u0aaf”\u202f\u0aae\u0abe\u0a82\u202f\u0a95\u0aaf\u0abe\u202f\u0aaa\u0acd\u0ab0\u0a95\u0abe\u0ab0\u202f\u0aa8\u0abe\u202f\u0a95\u0abe\u0ab5\u0acd\u0aaf\u0acb\u202f\u0a9b\u0ac7?  
+
+---
+
+### 6.\u202f\u0aae\u0ac2\u0ab2\u0acd\u0aaf\u0abe\u0a82\u0a95\u0aa8\u202f(Scoring)  
+| \u0ab5\u0abf\u0aad\u0abe\u0a97 | \u0aae\u0ab9\u0aa4\u0acd\u0aa4\u0aae\u202f\u0a85\u0a82\u0a95 |
+|--------|------------|
+|\u202f\u0aaa\u0abe\u0aa0\u202f(Reading) |\u202f10\u202f\u0a85\u0a82\u0a95 |
+|\u202f\u0ab5\u0acd\u0aaf\u0abe\u0a95\u0ab0\u0aa3 |\u202f10\u202f\u0a85\u0a82\u0a95 |
+|\u202f\u0ab2\u0ac7\u0a96\u0aa8 |\u202f15\u202f\u0a85\u0a82\u0a95 |
+|\u202f\u0ab6\u0aac\u0acd\u0aa6\u202f\u0aad\u0a82\u0aa1\u0abe\u0ab0 |\u202f5\u202f\u0a85\u0a82\u0a95 |
+|\u202f\u0ab8\u0a82\u0a95\u0acd\u0ab7\u0abf\u0aaa\u0acd\u0aa4\u202f\u0aaa\u0acd\u0ab0\u0ab6\u0acd\u0aa8\u0acb |\u202f5\u202f\u0a85\u0a82\u0a95 |
+|\u202f**\u0a95\u0ac1\u0ab2** |\u202f45\u202f\u0a85\u0a82\u0a95 |
+
+---
+
+#### \u0ab8\u0ac2\u0a9a\u0aa8\u0abe\u0a93  
+-\u202f\u0aaa\u0ab0\u0ac0\u0a95\u0acd\u0ab7\u0abe\u0aae\u0abe\u0a82\u202f\u0aa4\u0aae\u0abe\u0ab0\u0acb\u202f\u0ab8\u0aae\u0aaf\u202f\u0ab8\u0abe\u0a9a\u0ab5\u0acb.  
+-\u202f\u0aaa\u0acd\u0ab0\u0ab6\u0acd\u0aa8\u0acb\u202f\u0aa7\u0acd\u0aaf\u0abe\u0aa8\u0aa5\u0ac0\u202f\u0ab5\u0abe\u0a82\u0a9a\u0acb\u202f\u0a85\u0aa8\u0ac7\u202f\u0a9c\u0ab5\u0abe\u0aac\u202f\u0ab8\u0abe\u0a9a\u0abe\u202f\u0a85\u0a95\u0acd\u0ab7\u0ab0\u202f\u0aae\u0abe\u0a82\u202f\u0ab2\u0a96\u0acb.  
+-\u202f\u0ab2\u0ac7\u0a96\u0aa8\u0aae\u0abe\u0a82\u202f\u0ab5\u0acd\u0aaf\u0abe\u0a95\u0ab0\u0aa3\u202f\u0a85\u0aa8\u0ac7\u202f\u0ab6\u0aac\u0acd\u0aa6\u202f\u0aad\u0a82\u0aa1\u0abe\u0ab0\u202f\u0aa8\u0acb\u202f\u0aaf\u0acb\u0a97\u0acd\u0aaf\u202f\u0a89\u0aaa\u0aaf\u0acb\u0a97\u202f\u0a95\u0ab0\u0acb.  
+
+---
+
+**\u0a86\u202f\u0ab8\u0ac7\u0aae\u0acd\u0aaa\u0ab2\u202f\u0aaa\u0ac7\u0aaa\u0ab0\u202f\u0aa4\u0aae\u0aa8\u0ac7\u202f\u0aaa\u0ab0\u0ac0\u0a95\u0acd\u0ab7\u0abe\u0aa8\u0ac0\u202f\u0aa4\u0ac8\u0aaf\u0abe\u0ab0\u0ac0\u202f\u0aae\u0abe\u0a82\u202f\u0aae\u0aa6\u0aa6\u202f\u0a95\u0ab0\u0ab6\u0ac7.\u202f\u0a9c\u0acb\u202f\u0aa4\u0aae\u0aa8\u0ac7\u202f\u0ab5\u0aa7\u0ac1\u202f\u0aaa\u0acd\u0ab0\u0ab6\u0acd\u0aa8\u0acb\u202f\u0a85\u0aa5\u0ab5\u0abe\u202f\u0ab5\u0abf\u0a97\u0aa4\u0acb\u202f\u0a9c\u0ab0\u0ac2\u0ab0\u202f\u0ab9\u0acb\u0aaf\u202f\u0aa4\u0acb\u202f\u0aae\u0aa8\u0ac7\u202f\u0a9c\u0aa3\u0abe\u0ab5\u0acb!**
+2026-01-02 15:08:22,592 127.0.0.1 - - [02/Jan/2026 15:08:22] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:08:50,106 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-01-02 15:08:50,106 Retrying request to /openai/v1/chat/completions in 23.000000 seconds
+2026-01-02 15:09:18,697 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:09:18,703 USER(20260102135100): paper style
+2026-01-02 15:09:18,703 BOT: **How to Format a Gujarati Academic Paper (Paper\u202fStyle Guide)**  
+*(Use this template for essays, research reports, or class assignments in Gujarati.)*
+
+---
+
+## 1.\u202fGeneral Layout
+
+| Element | Typical Specification | Why It Matters |
+|---------|-----------------------|----------------|
+| **Paper Size** | A4 (210\u202f×\u202f297\u202fmm) | Standard for printing & digital sharing. |
+| **Margins** | Top\u202f=\u202f2\u202fcm, Bottom\u202f=\u202f2\u202fcm, Left\u202f=\u202f2.5\u202fcm, Right\u202f=\u202f2\u202fcm | Keeps text readable and leaves space for binding. |
+| **Font** | *Mangal* (for Gujarati) or *Devanagari* (if using Hindi script) | Clear, legible, and widely supported. |
+| **Font Size** | Body\u202f=\u202f12\u202fpt, Headings\u202f=\u202f14–16\u202fpt (bold) | Ensures readability; headings stand out. |
+| **Line Spacing** | 1.5\u202f×\u202fline spacing | Gives room for comments & makes the paper look clean. |
+| **Page Numbers** | Bottom\u2011center or bottom\u2011right | Helps reviewers locate sections. |
+| **Header** | Title of paper (short) or author name (optional) | Adds a professional touch. |
+| **Footer** | Page number + optional copyright | Keeps the document tidy. |
+
+---
+
+## 2.\u202fPaper Structure (Typical Sections)
+
+| Section | Purpose | Typical Length | Formatting Notes |
+|---------|---------|----------------|------------------|
+| **Title Page** | Title, author, institution, date | 1 page | Centered title (bold, 16\u202fpt). Author name, department, university, date below. |
+| **Abstract** | Brief summary (150–250\u202fwords) | 1 paragraph | Gujarati abstract; use *Abstract* heading (bold). |
+| **Keywords** | 3–5 key terms | 1 line | After abstract, italicized or in parentheses. |
+| **Introduction** | Context, problem statement, objectives | 1–2\u202fpages | Use heading “\u0aaa\u0ab0\u0abf\u0a9a\u0aaf” (bold). |
+| **Literature Review / Background** | Existing research, theories | 1–2\u202fpages | Heading “\u0ab8\u0abe\u0ab9\u0abf\u0aa4\u0acd\u0aaf \u0ab8\u0aae\u0ac0\u0a95\u0acd\u0ab7\u0abe” or “\u0aaa\u0ac3\u0ab7\u0acd\u0aa0\u0aad\u0ac2\u0aae\u0abf”. |
+| **Methodology** | How you gathered data | 1–2\u202fpages | Heading “\u0aaa\u0aa6\u0acd\u0aa7\u0aa4\u0abf\u0ab6\u0abe\u0ab8\u0acd\u0aa4\u0acd\u0ab0”. |
+| **Results / Findings** | Data, observations | 1–3\u202fpages | Heading “\u0aaa\u0ab0\u0abf\u0aa3\u0abe\u0aae\u0acb”. Use tables/figures if needed. |
+| **Discussion** | Interpretation of results | 1–2\u202fpages | Heading “\u0a9a\u0ab0\u0acd\u0a9a\u0abe”. |
+| **Conclusion** | Summary, implications, future work | ½–1\u202fpage | Heading “\u0aa8\u0abf\u0ab7\u0acd\u0a95\u0ab0\u0acd\u0ab7”. |
+| **References** | All cited works | 1–2\u202fpages | Use Gujarati citation style (e.g., APA in Gujarati). |
+| **Appendices** | Supplementary material | Optional | Label as “\u0aaa\u0ab0\u0abf\u0ab6\u0abf\u0ab7\u0acd\u0a9f” and number. |
+
+---
+
+## 3.\u202fHeadings & Sub\u2011Headings
+
+| Level | Style | Example |
+|-------|-------|---------|
+| **H1** | Bold, 16\u202fpt, centered | **\u0aaa\u0ab0\u0abf\u0a9a\u0aaf** |
+| **H2** | Bold, 14\u202fpt, left\u2011aligned | **\u0ab8\u0abe\u0ab9\u0abf\u0aa4\u0acd\u0aaf \u0ab8\u0aae\u0ac0\u0a95\u0acd\u0ab7\u0abe** |
+| **H3** | Italic, 12\u202fpt, left\u2011aligned | *\u0aaa\u0aa6\u0acd\u0aa7\u0aa4\u0abf\u0ab6\u0abe\u0ab8\u0acd\u0aa4\u0acd\u0ab0* |
+| **H4** | Regular, 12\u202fpt, left\u2011aligned | *\u0aa1\u0ac7\u0a9f\u0abe \u0ab8\u0a82\u0a97\u0acd\u0ab0\u0ab9* |
+
+*Tip:* Keep heading hierarchy consistent; use Roman numerals or Arabic numbers if you prefer numbered sections (e.g., 1.\u202f\u0aaa\u0ab0\u0abf\u0a9a\u0aaf, 1.1\u202f\u0ab8\u0abe\u0ab9\u0abf\u0aa4\u0acd\u0aaf \u0ab8\u0aae\u0ac0\u0a95\u0acd\u0ab7\u0abe).
+
+---
+
+## 4.\u202fTables & Figures
+
+| Element | Placement | Caption Style |
+|---------|-----------|---------------|
+| **Table** | Below the heading, centered | “\u0a9f\u0ac7\u0aac\u0ab2\u202f1.\u202f\u0aa1\u0ac7\u0a9f\u0abe \u0ab8\u0abe\u0ab0\u0abe\u0a82\u0ab6” |
+| **Figure** | Below the heading, centered | “\u0a86\u0a95\u0ac3\u0aa4\u0abf\u202f1.\u202f\u0a97\u0acd\u0ab0\u0abe\u0aab\u0abf\u0a95\u0ab2 \u0aaa\u0acd\u0ab0\u0ab8\u0acd\u0aa4\u0ac1\u0aa4\u0abf” |
+| **Numbering** | Sequential (Table\u202f1, Table\u202f2, …) | Use Arabic numerals. |
+| **Source** | Below the table/figure | “\u0ab8\u0acd\u0aa4\u0acd\u0ab0\u0acb\u0aa4: \u0aaa\u0acb\u0aa4\u0abe\u0aa8\u0ac1\u0a82 \u0aa1\u0ac7\u0a9f\u0abe” |
+
+---
+
+## 5.\u202fCitation & References (Gujarati APA Style)
+
+| Element | Format (Gujarati) | Example |
+|---------|-------------------|---------|
+| **Book** | \u0ab2\u0ac7\u0a96\u0a95\u0aa8\u0ac1\u0a82 \u0aa8\u0abe\u0aae. (\u0ab5\u0ab0\u0acd\u0ab7). *\u0aaa\u0ac1\u0ab8\u0acd\u0aa4\u0a95\u0aa8\u0ac1\u0a82 \u0ab6\u0ac0\u0ab0\u0acd\u0ab7\u0a95*. \u0aaa\u0acd\u0ab0\u0a95\u0abe\u0ab6\u0a95. | \u0aaa\u0a9f\u0ac7\u0ab2,\u202f\u0a9c.\u202f(2020). *\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe*. \u0aaa\u0acd\u0ab0\u0a95\u0abe\u0ab6\u0aa8\u202f\u0aaa\u0acd\u0ab0\u0a95\u0abe\u0ab6\u0aa8. |
+| **Journal Article** | \u0ab2\u0ac7\u0a96\u0a95\u0aa8\u0ac1\u0a82 \u0aa8\u0abe\u0aae. (\u0ab5\u0ab0\u0acd\u0ab7). \u0ab2\u0ac7\u0a96\u0aa8\u0ac1\u0a82 \u0ab6\u0ac0\u0ab0\u0acd\u0ab7\u0a95. *\u0a9c\u0ab0\u0acd\u0aa8\u0ab2\u0aa8\u0ac1\u0a82 \u0aa8\u0abe\u0aae*,\u202f\u0ab5\u0acb\u0ab2\u0acd\u0aaf\u0ac1\u0aae(\u0a87\u0ab6\u0acd\u0aaf\u0ac1), \u0aaa\u0ac3\u0ab7\u0acd\u0aa0. | \u0ab6\u0abe\u0ab9,\u202f\u0a8f.\u202f(2019). \u0aad\u0abe\u0ab7\u0abe \u0ab5\u0abf\u0a95\u0abe\u0ab8. *\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0a9c\u0ab0\u0acd\u0aa8\u0ab2*,\u202f12(3),\u202f45\u201160. |
+| **Website** | \u0ab2\u0ac7\u0a96\u0a95\u0aa8\u0ac1\u0a82 \u0aa8\u0abe\u0aae. (\u0ab5\u0ab0\u0acd\u0ab7). \u0ab6\u0ac0\u0ab0\u0acd\u0ab7\u0a95. *\u0ab5\u0ac7\u0aac\u0ab8\u0abe\u0a87\u0a9f*. URL | \u0aa8\u0ab0\u0acd\u0aae\u0aa6\u0abe,\u202f\u0ab8.\u202f(2021). \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0ab5\u0acd\u0aaf\u0abe\u0a95\u0ab0\u0aa3. *\u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 \u0aad\u0abe\u0ab7\u0abe \u0ab5\u0ac7\u0aac\u0ab8\u0abe\u0a87\u0a9f*. https://gujarati.org/grammar |
+
+*Tip:* Keep all references in alphabetical order by the author’s surname.
+
+---
+
+## 6.\u202fCommon Formatting Checklist
+
+- [ ] **Margins** set to 2\u202fcm (left) and 2.5\u202fcm (right).  
+- [ ] **Font**: Mangal, 12\u202fpt for body text.  
+- [ ] **Line spacing**: 1.5\u202f×\u202fline.  
+- [ ] **Page numbers**: Bottom\u2011center.  
+- [ ] **Headings**: Consistent hierarchy.  
+- [ ] **Tables/Figures**: Captioned and numbered.  
+- [ ] **References**: Complete and correctly formatted.  
+- [ ] **Spelling & Grammar**: Proofread in Gujarati.  
+
+---
+
+## 7.\u202fSample Page Layout (Text\u2011Only)
+
+```
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+|                     \u0ab6\u0ac0\u0ab0\u0acd\u0ab7\u0a95 (Title)                       |
+|                     (Center, Bold, 16\u202fpt)                 |
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+Author Name
+Department, University
+Date
+
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+| Abstract (Gujarati)                                      |
+| 150–250 \u0ab6\u0aac\u0acd\u0aa6\u0acb\u0aa8\u0ac1\u0a82 \u0ab8\u0abe\u0ab0\u0abe\u0a82\u0ab6.                                 |
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+Keywords: \u0ab6\u0aac\u0acd\u0aa61, \u0ab6\u0aac\u0acd\u0aa62, \u0ab6\u0aac\u0acd\u0aa63
+
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+| 1.\u202f\u0aaa\u0ab0\u0abf\u0a9a\u0aaf (Introduction)                                 |
+| 1.1\u202f\u0aaa\u0ac3\u0ab7\u0acd\u0aa0\u0aad\u0ac2\u0aae\u0abf (Background)                              |
+| 1.2\u202f\u0ab8\u0aae\u0ab8\u0acd\u0aaf\u0abe \u0aa8\u0abf\u0ab5\u0ac7\u0aa6\u0aa8 (Problem Statement)                    |
+\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500
+
+... (continue with sections)
+```
+
+---
+
+### Final Tips
+
+1. **Save Frequently** – Use a cloud service (Google Drive, OneDrive) to avoid data loss.  
+2. **Use Styles** – In MS\u202fWord or Google Docs, create “Heading\u202f1”, “Heading\u202f2”, etc. This auto\u2011generates a table of contents.  
+3. **Proofread** – Have a peer or teacher review for clarity and correctness.  
+4. **Export as PDF** – Submit the final version in PDF to preserve formatting.
+
+---
+
+**That’s your “paper style” checklist for Gujarati academic writing!**  
+If you need a ready\u2011made template file (Word/Google Docs) or help with a specific section, just let me know. Happy writing!
+2026-01-02 15:09:18,703 127.0.0.1 - - [02/Jan/2026 15:09:18] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:10:23,008 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-01-02 15:10:23,100 127.0.0.1 - - [02/Jan/2026 15:10:23] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-01-02 15:10:38,599 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-01-02 15:10:38,605 127.0.0.1 - - [02/Jan/2026 15:10:38] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-01-02 15:12:30,143 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-01-02 15:12:30,151 127.0.0.1 - - [02/Jan/2026 15:12:30] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-01-02 15:12:40,125 127.0.0.1 - - [02/Jan/2026 15:12:40] "GET / HTTP/1.1" 200 -
+2026-01-02 15:12:40,158 127.0.0.1 - - [02/Jan/2026 15:12:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 15:12:40,160 127.0.0.1 - - [02/Jan/2026 15:12:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 15:12:40,172 127.0.0.1 - - [02/Jan/2026 15:12:40] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 15:12:43,993 127.0.0.1 - - [02/Jan/2026 15:12:43] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 15:12:43,993 127.0.0.1 - - [02/Jan/2026 15:12:43] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 15:12:44,348 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-01-02 15:12:44,354 127.0.0.1 - - [02/Jan/2026 15:12:44] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-01-02 15:13:08,397 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 413 Payload Too Large"
+2026-01-02 15:13:08,410 127.0.0.1 - - [02/Jan/2026 15:13:08] "[35m[1mPOST /api/chat HTTP/1.1[0m" 500 -
+2026-01-02 15:13:27,446 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.202.52.199:5000
+2026-01-02 15:13:27,446 [33mPress CTRL+C to quit[0m
+2026-01-02 15:13:27,446  * Restarting with stat
+2026-01-02 15:13:28,430  * Debugger is active!
+2026-01-02 15:13:28,430  * Debugger PIN: 814-560-840
+2026-01-02 15:13:28,590 127.0.0.1 - - [02/Jan/2026 15:13:28] "GET / HTTP/1.1" 200 -
+2026-01-02 15:13:28,675 127.0.0.1 - - [02/Jan/2026 15:13:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2026-01-02 15:13:28,675 127.0.0.1 - - [02/Jan/2026 15:13:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-01-02 15:13:28,675 127.0.0.1 - - [02/Jan/2026 15:13:28] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2026-01-02 15:13:31,631 127.0.0.1 - - [02/Jan/2026 15:13:31] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 15:13:31,631 127.0.0.1 - - [02/Jan/2026 15:13:31] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 15:13:33,666 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:13:33,679 USER(20260102151331): how can i find datset for liver?
+2026-01-02 15:13:33,679 BOT: Hi there! \U0001f44b  
+If you’re looking for a dataset to work on liver\u2011related projects—whether it’s imaging, genomics, clinical data, or anything else—there are several great resources you can tap into. Below is a quick guide to help you locate and choose the right dataset for your study or coursework.
+
+---
+
+## 1. Decide What Kind of Liver Data You Need
+
+| Data Type | Typical Use | Example Projects |
+|-----------|-------------|------------------|
+| **Imaging** (CT, MRI, Ultrasound) | Tumor segmentation, disease classification | Liver cancer detection, fatty liver quantification |
+| **Genomics / Transcriptomics** | Gene expression analysis, biomarker discovery | Hepatocellular carcinoma gene signatures |
+| **Clinical / Electronic Health Records (EHR)** | Predictive modeling, risk stratification | Predicting liver failure or cirrhosis progression |
+| **Biochemical / Lab Tests** | Biomarker validation, longitudinal studies | ALT/AST trend analysis |
+
+Knowing the type will narrow down where to look.
+
+---
+
+## 2. Popular Public Repositories
+
+| Repository | What It Offers | How to Access |
+|------------|----------------|---------------|
+| **Kaggle** | A mix of imaging, tabular, and genomic datasets. Search “liver” or “liver cancer.” | Create a free account \u2192 Search \u2192 Download |
+| **UCI Machine Learning Repository** | Classic tabular datasets (e.g., “Liver Disorders” dataset). | Browse \u2192 Search \u2192 Download |
+| **OpenNeuro** | Neuroimaging, but sometimes includes liver\u2011related MRI data. | Search \u2192 Download |
+| **NIH Image Databases** | Large imaging collections (e.g., TCIA – The Cancer Imaging Archive). | Browse \u2192 Filter by organ \u2192 Download |
+| **Genomics Data Commons (GDC)** | TCGA liver cancer (LIHC) genomic data. | Register \u2192 Search \u2192 Download |
+| **PhysioNet** | Physiological signals, sometimes liver\u2011related (e.g., liver function tests). | Browse \u2192 Search \u2192 Download |
+| **Data.gov** | U.S. government datasets, including health data. | Search \u2192 Filter by health \u2192 Download |
+
+---
+
+## 3. Specific Liver\u2011Focused Datasets
+
+| Dataset | Description | Link |
+|---------|-------------|------|
+| **TCIA Liver Tumor Segmentation (LiTS)** | CT scans with liver and tumor annotations. | <https://www.cancerimagingarchive.net/collection/lits/> |
+| **LiTS Challenge 2017** | Same as above, used in a competition. | <https://competitions.codalab.org/competitions/17094> |
+| **Liver Cancer Imaging Database (LCID)** | MRI and CT scans of liver cancer patients. | <https://www.lcid.org/> |
+| **TCGA-LIHC (Liver Hepatocellular Carcinoma)** | Genomic, transcriptomic, and clinical data. | <https://portal.gdc.cancer.gov/projects/TCGA-LIHC> |
+| **UCI Liver Disorders Dataset** | 6\u2011feature tabular dataset for liver disease classification. | <https://archive.ics.uci.edu/ml/datasets/Liver+Disorders> |
+| **Kaggle Liver Cancer Dataset** | CT images with segmentation masks. | <https://www.kaggle.com/competitions/liver-tumor-segmentation> |
+| **OpenfMRI (Liver\u2011related)** | Some studies include liver imaging. | <https://openneuro.org/datasets> |
+
+---
+
+## 4. How to Download & Use
+
+1. **Create an Account** (most sites require free registration).  
+2. **Search** using keywords like “liver,” “liver cancer,” “hepatitis,” or “fatty liver.”  
+3. **Read the Documentation** – check data format, licensing, and any preprocessing steps.  
+4. **Download** the files (often in ZIP or CSV).  
+5. **Load into Your Tool** – e.g., Python (pandas, nibabel), R, MATLAB, or specialized imaging software.  
+
+---
+
+## 5. Tips for Working with Liver Datasets
+
+- **Check Licensing**: Some datasets are open for research but not for commercial use.  
+- **Preprocess Carefully**: Imaging data may need resampling, normalization, or skull\u2011stripping (for MRI).  
+- **Use Annotation Tools**: For segmentation tasks, tools like ITK\u2011SNAP or 3D Slicer are handy.  
+- **Validate with Clinical Experts**: If possible, get feedback from a medical professional to ensure your labels or predictions make sense.  
+
+---
+
+## 6. Need More Help?
+
+- **Project Ideas**: I can suggest specific projects (e.g., liver tumor segmentation, predicting cirrhosis progression).  
+- **Data Cleaning**: Tips on handling missing values or class imbalance.  
+- **Modeling Guidance**: Advice on choosing algorithms (CNNs for imaging, random forests for tabular data).  
+
+Just let me know what you’re aiming to do, and I’ll tailor the guidance to your needs! \U0001f680
+2026-01-02 15:13:33,679 127.0.0.1 - - [02/Jan/2026 15:13:33] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:14:15,562 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:14:15,564 USER(20260102151331): what is HCC TCGA
+2026-01-02 15:14:15,564 BOT: Hi! \U0001f44b  
+**HCC** stands for **Hepatocellular Carcinoma**, the most common type of primary liver cancer.  
+**TCGA** is the **The Cancer Genome Atlas**, a large, publicly\u2011available project that collected genomic, epigenomic, transcriptomic, and clinical data from thousands of cancer patients.
+
+So, **HCC TCGA** refers to the TCGA dataset specifically for hepatocellular carcinoma. Here’s a quick rundown of what it includes and why it’s useful for learning and research:
+
+---
+
+### 1. What’s in the HCC TCGA Dataset?
+
+| Data Type | What It Is | Typical Use in Studies |
+|-----------|------------|------------------------|
+| **Whole\u2011Genome Sequencing (WGS)** | DNA sequence data from tumor and matched normal tissue | Identify somatic mutations, copy\u2011number changes |
+| **RNA\u2011Seq (Transcriptomics)** | Gene expression levels | Find differentially expressed genes, build prognostic signatures |
+| **DNA Methylation** | Epigenetic modifications | Study tumor\u2011specific methylation patterns |
+| **miRNA\u2011Seq** | Micro\u2011RNA expression | Explore regulatory networks |
+| **Clinical Data** | Patient demographics, treatment, survival | Correlate molecular findings with outcomes |
+
+All of this is linked to a **clinical record** for each patient, so you can perform integrative analyses (e.g., “does a particular mutation predict survival?”).
+
+---
+
+### 2. Why It’s Great for Learning
+
+- **Real\u2011World Scale**: Thousands of samples \u2192 practice handling large datasets.
+- **Multi\u2011Omics**: Learn how to combine DNA, RNA, and epigenetic data.
+- **Open Access**: No paywall—perfect for coursework, projects, or self\u2011study.
+- **Rich Documentation**: The TCGA portal provides detailed metadata and tutorials.
+
+---
+
+### 3. How to Access It
+
+1. **Register** at the Genomic Data Commons (GDC) portal: <https://portal.gdc.cancer.gov/>
+2. **Search** for “TCGA\u2011LIHC” (LIHC = Liver Hepatocellular Carcinoma).
+3. **Select** the data types you need (e.g., “RNA\u2011Seq” or “Clinical”).
+4. **Download** using the GDC Data Transfer Tool or the web interface.
+
+> **Tip:** If you’re new to GDC, start with the **RNA\u2011Seq** and **Clinical** data—these are the most common for beginner projects.
+
+---
+
+### 4. Example Project Ideas
+
+| Project | What You’ll Learn |
+|---------|-------------------|
+| **Differential Gene Expression** | RNA\u2011Seq analysis, DESeq2, volcano plots |
+| **Mutation\u2011Survival Analysis** | Cox regression, Kaplan–Meier curves |
+| **Multi\u2011Omics Integration** | Correlate methylation with expression |
+| **Machine\u2011Learning Prognostic Model** | Random forest, XGBoost, cross\u2011validation |
+
+---
+
+### 5. Resources to Get Started
+
+- **GDC Data Portal**: <https://portal.gdc.cancer.gov/>
+- **TCGA Data Analysis Tutorials** (by Broad Institute): <https://software.broadinstitute.org/gsea/wiki/TCGA>
+- **Bioconductor Packages**: `TCGAbiolinks`, `DESeq2`, `survival`
+- **Coursera / edX Courses**: “Genomic Data Science” (Johns Hopkins) or “Bioinformatics” (University of California, San Diego)
+
+---
+
+Feel free to let me know if you’d like help setting up a specific analysis, choosing a project, or understanding any of the data types. Happy exploring! \U0001f331
+2026-01-02 15:14:15,564 127.0.0.1 - - [02/Jan/2026 15:14:15] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:15:06,063 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:15:06,075 USER(20260102151331): whuch course is best for fail student fin SE
+2026-01-02 15:15:06,075 BOT: Hi there! \U0001f44b  
+I’m happy to help you find a course that can give you a solid boost in finance and financial engineering (often abbreviated “Fin\u202fSE”). Below are some highly\u2011rated options that are beginner\u2011friendly, flexible, and designed to help students who may have struggled before. Feel free to pick the one that best fits your schedule, learning style, and goals.
+
+---
+
+## 1. **Coursera – “Financial Markets” (Yale University)**
+| Feature | Why It Helps |
+|---------|--------------|
+| **Beginner\u2011friendly** | Starts with basic concepts (interest rates, bonds, stocks). |
+| **Short & Structured** | 8\u2011week course, ~3–4\u202fhrs/week. |
+| **Interactive** | Video lectures, quizzes, peer discussion. |
+| **Certificate** | Adds to your résumé. |
+
+> **Tip:** Use the “Practice” quizzes to test yourself before moving on. If you’re struggling, pause the video and write down key terms—active note\u2011taking helps retention.
+
+---
+
+## 2. **edX – “Finance for Everyone: Smart Tools for Decision-Making” (University of Michigan)**
+| Feature | Why It Helps |
+|---------|--------------|
+| **Hands\u2011on** | Excel\u2011based exercises, real\u2011world case studies. |
+| **Self\u2011paced** | No strict deadlines—great if you need to fit learning around other commitments. |
+| **Fundamentals + Practical** | Covers budgeting, risk, and investment basics. |
+
+> **Tip:** Work through the Excel labs slowly; they’re designed to reinforce the theory with practice.
+
+---
+
+## 3. **Udemy – “The Complete Financial Analyst Course 2024”**
+| Feature | Why It Helps |
+|---------|--------------|
+| **All\u2011in\u2011one** | Covers accounting, Excel, financial modeling, and valuation. |
+| **Lifetime Access** | Revisit the material whenever you need a refresher. |
+| **Project\u2011Based** | Build a full financial model by the end. |
+
+> **Tip:** Focus on the “Financial Modeling” section first; it’s a practical skill that often impresses employers and can help you feel more confident in the subject.
+
+---
+
+## 4. **Khan Academy – “Finance & Capital Markets”**
+| Feature | Why It Helps |
+|---------|--------------|
+| **Free** | No cost barrier. |
+| **Micro\u2011learning** | Short videos (5–10\u202fmin) that fit into a busy schedule. |
+| **Interactive Quizzes** | Immediate feedback on your understanding. |
+
+> **Tip:** Use the “Practice” section after each video to cement the concept. It’s especially useful if you need to build confidence before tackling more advanced courses.
+
+---
+
+## 5. **LinkedIn Learning – “Finance Foundations”**
+| Feature | Why It Helps |
+|---------|--------------|
+| **Professional Focus** | Emphasizes business communication and decision\u2011making. |
+| **Short Modules** | 30\u2011minute lessons—great for quick learning bursts. |
+| **Certification** | Adds a credential to your LinkedIn profile. |
+
+> **Tip:** Pair this with a hands\u2011on project (e.g., create a simple budget or investment plan) to apply what you learn immediately.
+
+---
+
+## How to Choose the Right Course
+
+1. **Identify Your Weaknesses**  
+   - *Conceptual gaps?* \u2192 Yale’s “Financial Markets”  
+   - *Practical skills?* \u2192 Udemy’s “Financial Analyst Course” or LinkedIn Learning
+
+2. **Consider Your Time Commitment**  
+   - *Busy schedule?* \u2192 Khan Academy or LinkedIn Learning (short modules)  
+   - *More time?* \u2192 Coursera or edX (structured, longer courses)
+
+3. **Budget**  
+   - Free options: Khan Academy, Coursera audit mode, edX audit mode  
+   - Paid but often discounted: Udemy, LinkedIn Learning (monthly subscription)
+
+4. **Learning Style**  
+   - *Video + quizzes:* Coursera, edX  
+   - *Hands\u2011on projects:* Udemy, LinkedIn Learning  
+   - *Micro\u2011learning:* Khan Academy
+
+---
+
+### Quick Action Plan
+
+1. **Pick one course** from the list above that matches your needs.  
+2. **Set a realistic schedule** (e.g., 2\u202fhrs/week).  
+3. **Take notes** and summarize each lesson in your own words.  
+4. **Apply what you learn** in a small project (budget, investment plan, or simple financial model).  
+5. **Review** and revisit challenging topics until you feel comfortable.
+
+---
+
+You’ve already taken the first step by seeking help—keep that momentum going! If you’d like more personalized guidance (e.g., a study plan or resources for a specific topic), just let me know. Good luck, and you’ve got this! \U0001f680
+2026-01-02 15:15:06,075 127.0.0.1 - - [02/Jan/2026 15:15:06] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:15:55,402 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:15:55,402 USER(20260102151331): in SE
+2026-01-02 15:15:55,402 BOT: Hi again! \U0001f44b  
+Got it—you're looking for a course that can help a student who’s struggling in **Software Engineering (SE)**. No worries, there are plenty of beginner\u2011friendly, practical programs that can turn a rough start into a solid foundation. Below are some of the best options, plus a quick study\u2011plan to keep you on track.
+
+---
+
+## 1. **Coursera – “Software Engineering Essentials” (University of Alberta)**
+| Feature | Why It Helps |
+|---------|--------------|
+| **Core Topics** | Requirements, design patterns, testing, version control. |
+| **Project\u2011Based** | Build a small web app from scratch. |
+| **Flexible Pace** | 8\u2011week course, ~3\u202fhrs/week. |
+| **Certificate** | Adds to your résumé. |
+
+> **Pro tip:** Use the “peer\u2011reviewed assignments” to get feedback early—great for catching mistakes before they become habits.
+
+---
+
+## 2. **edX – “CS50’s Web Programming with Python & JavaScript” (Harvard)**
+| Feature | Why It Helps |
+|---------|--------------|
+| **Hands\u2011on** | Real\u2011world projects (blog, e\u2011commerce site). |
+| **Beginner\u2011friendly** | Starts with HTML/CSS, then moves to Python/Django. |
+| **Self\u2011paced** | No strict deadlines—ideal if you’re juggling other commitments. |
+
+> **Pro tip:** Work through the “Lab” sections slowly; they’re designed to reinforce each concept.
+
+---
+
+## 3. **Udacity – “Intro to Programming Nanodegree”**
+| Feature | Why It Helps |
+|---------|--------------|
+| **Project\u2011Based** | Build a game, a web app, and a data\u2011visualization dashboard. |
+| **Mentor Support** | One\u2011on\u2011one feedback on your code. |
+| **Career Services** | Resume review, interview prep. |
+
+> **Pro tip:** Focus on the “Git & GitHub” modules early—version control is a must\u2011have skill.
+
+---
+
+## 4. **freeCodeCamp – “Full Stack Developer Curriculum”**
+| Feature | Why It Helps |
+|---------|--------------|
+| **Free** | No cost barrier. |
+| **Micro\u2011learning** | 3000+ hours of video + hands\u2011on coding challenges. |
+| **Certification** | Earn a certificate after completing each section. |
+
+> **Pro tip:** Pair the “Front End Libraries” section with a side project (e.g., a personal portfolio) to cement what you learn.
+
+---
+
+## 5. **LinkedIn Learning – “Learning JavaScript” & “Learning Python”**
+| Feature | Why It Helps |
+|---------|--------------|
+| **Short Modules** | 30\u2011minute lessons—great for quick learning bursts. |
+| **Practice Exercises** | Immediate feedback on your code. |
+| **Certification** | Adds a credential to your LinkedIn profile. |
+
+> **Pro tip:** Use the “Learning Paths” (e.g., “Become a Front\u2011End Developer”) to stay focused on a clear goal.
+
+---
+
+## Quick Study Plan for a Failing Student
+
+| Step | What to Do | Why It Works |
+|------|------------|--------------|
+| **1. Diagnose** | Take a short diagnostic quiz (many courses offer one). | Pinpoint weak areas (e.g., loops, functions, OOP). |
+| **2. Set Micro\u2011Goals** | 1\u20112 topics per week (e.g., “Variables & Data Types” \u2192 “Control Flow”). | Keeps learning manageable and reduces overwhelm. |
+| **3. Build a Mini\u2011Project** | After each major topic, create a tiny project (e.g., a calculator, a to\u2011do list). | Reinforces theory with practice. |
+| **4. Peer Review** | Share code on GitHub or a forum (Stack Overflow, Reddit r/learnprogramming). | Immediate feedback helps catch mistakes early. |
+| **5. Reflect & Iterate** | End each week with a 5\u2011minute reflection: “What did I learn? What’s still confusing?” | Builds metacognition—knowing how you learn is half the battle. |
+
+---
+
+### Bonus Resources
+
+- **Coding Practice**: LeetCode, HackerRank, CodeSignal (start with “Easy” problems).  
+- **Debugging**: “Debugging 101” videos on YouTube (search “debugging JavaScript”).  
+- **Study Groups**: Join Discord communities like “freeCodeCamp Discord” or “The Odin Project Discord.”  
+
+---
+
+### Final Thought
+
+Remember, the biggest hurdle for many students is *confidence*. Pick one course that feels approachable, commit to a small weekly goal, and celebrate every milestone—no matter how tiny. Over time, those small wins build into solid competence.
+
+If you’d like help choosing a specific course or setting up a study schedule, just let me know! Happy coding! \U0001f680
+2026-01-02 15:15:55,408 127.0.0.1 - - [02/Jan/2026 15:15:55] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:17:02,158 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:17:02,158 USER(20260102151331): give the details about the awt
+2026-01-02 15:17:02,158 BOT: Hi! \U0001f44b  
+Let’s dive into **AWT (Abstract Window Toolkit)**—the classic Java GUI library that’s been around since the very first versions of Java. Below you’ll find a quick\u2011start guide, key components, layout managers, event handling, and some handy tips for getting the most out of AWT.
+
+---
+
+## 1. What is AWT?
+
+- **AWT** is Java’s original GUI toolkit (part of `java.awt` package).  
+- It’s *platform\u2011native*: the widgets you create are rendered by the underlying OS (Windows, macOS, Linux).  
+- AWT predates Swing and JavaFX, but it’s still useful for lightweight applications, quick prototypes, or when you need to interact with native components.
+
+---
+
+## 2. Core Concepts
+
+| Concept | Description | Example |
+|---------|-------------|---------|
+| **Components** | Basic UI elements (buttons, labels, text fields, etc.). | `Button`, `Label`, `TextField` |
+| **Containers** | Hold components and manage layout. | `Frame`, `Panel`, `Window` |
+| **Layout Managers** | Control how components are arranged. | `BorderLayout`, `FlowLayout`, `GridLayout` |
+| **Event Handling** | Respond to user actions (clicks, key presses). | `ActionListener`, `MouseListener` |
+| **Graphics** | Drawing custom shapes or images. | `Graphics`, `Graphics2D` |
+
+---
+
+## 3. Building a Simple AWT Window
+
+```java
+import java.awt.*;
+import java.awt.event.*;
+
+public class SimpleAWTExample extends Frame implements ActionListener {
+    Button btn;
+    Label lbl;
+
+    public SimpleAWTExample() {
+        // Set up the frame
+        setTitle("AWT Demo");
+        setSize(300, 200);
+        setLayout(new FlowLayout());
+
+        // Create components
+        lbl = new Label("Press the button");
+        btn = new Button("Click Me");
+        btn.addActionListener(this); // Register event handler
+
+        // Add to frame
+        add(lbl);
+        add(btn);
+
+        // Handle window close
+        addWindowListener(new WindowAdapter() {
+            public void windowClosing(WindowEvent e) {
+                dispose(); // Close the window
+            }
+        });
+
+        setVisible(true);
+    }
+
+    // ActionListener method
+    public void actionPerformed(ActionEvent e) {
+        lbl.setText("Button clicked!");
+    }
+
+    public static void main(String[] args) {
+        new SimpleAWTExample();
+    }
+}
+```
+
+**What this does:**
+
+1. Creates a `Frame` (window).  
+2. Adds a `Label` and a `Button`.  
+3. Uses `FlowLayout` to arrange them.  
+4. Handles button clicks via `ActionListener`.  
+5. Closes the window cleanly with a `WindowListener`.
+
+---
+
+## 4. Common AWT Components
+
+| Component | Typical Use | Key Methods |
+|-----------|-------------|-------------|
+| `Button` | Clickable button | `setLabel()`, `addActionListener()` |
+| `Label` | Static text | `setText()` |
+| `TextField` | Single\u2011line input | `getText()`, `setText()` |
+| `TextArea` | Multi\u2011line input | `getText()`, `setText()` |
+| `Checkbox` | Boolean toggle | `setState()`, `addItemListener()` |
+| `Choice` | Drop\u2011down list | `addItem()`, `getSelectedItem()` |
+| `List` | Multi\u2011select list | `addItem()`, `getSelectedItems()` |
+| `Canvas` | Custom drawing surface | Override `paint(Graphics g)` |
+| `MenuBar`, `Menu`, `MenuItem` | Menus | `add()`, `addActionListener()` |
+
+---
+
+## 5. Layout Managers
+
+| Manager | When to Use | Example |
+|---------|-------------|---------|
+| `FlowLayout` | Simple left\u2011to\u2011right flow | `new FlowLayout()` |
+| `BorderLayout` | Five regions (N, S, E, W, C) | `new BorderLayout()` |
+| `GridLayout` | Uniform grid | `new GridLayout(rows, cols)` |
+| `GridBagLayout` | Flexible, weighted grid | `new GridBagLayout()` |
+| `CardLayout` | Switch between panels | `new CardLayout()` |
+
+**Tip:** For complex UIs, combine multiple panels each with its own layout manager.
+
+---
+
+## 6. Event Handling Basics
+
+1. **Action Events** – Buttons, menu items, text fields.  
+   ```java
+   btn.addActionListener(e -> System.out.println("Clicked!"));
+   ```
+
+2. **Mouse Events** – Clicks, movement.  
+   ```java
+   canvas.addMouseListener(new MouseAdapter() {
+       public void mouseClicked(MouseEvent e) { /* ... */ }
+   });
+   ```
+
+3. **Key Events** – Keyboard input.  
+   ```java
+   frame.addKeyListener(new KeyAdapter() {
+       public void keyPressed(KeyEvent e) { /* ... */ }
+   });
+   ```
+
+4. **Window Events** – Opening, closing, minimizing.  
+   ```java
+   frame.addWindowListener(new WindowAdapter() {
+       public void windowClosing(WindowEvent e) { /* ... */ }
+   });
+   ```
+
+---
+
+## 7. Custom Painting
+
+Override `paint(Graphics g)` in a `Canvas` or `Component`:
+
+```java
+class MyCanvas extends Canvas {
+    public void paint(Graphics g) {
+        g.setColor(Color.BLUE);
+        g.fillRect(10, 10, 100, 50);
+        g.setColor(Color.BLACK);
+        g.drawString("Hello AWT!", 20, 40);
+    }
+}
+```
+
+**Remember:** For smoother graphics, use `Graphics2D` (cast `Graphics` to `Graphics2D`).
+
+---
+
+## 8. Common Pitfalls & Fixes
+
+| Issue | Fix |
+|-------|-----|
+| **Components not showing** | Ensure `setVisible(true)` is called after adding all components. |
+| **Event not firing** | Verify listener is added to the correct component. |
+| **Thread\u2011safety** | GUI updates should happen on the Event Dispatch Thread (EDT). Use `EventQueue.invokeLater()`. |
+| **Layout glitches** | Call `pack()` after adding components to let the layout manager size the frame automatically. |
+| **Native look\u2011and\u2011feel differences** | AWT uses OS widgets; if you need a consistent look, consider Swing or JavaFX. |
+
+---
+
+## 9. When to Use AWT vs. Swing vs. JavaFX
+
+| Library | Strengths | When to Choose |
+|---------|-----------|----------------|
+| **AWT** | Lightweight, native widgets, minimal dependencies | Quick prototypes, legacy code, simple tools |
+| **Swing** | Rich component set, customizable UI, no native widgets | Full\u2011featured desktop apps, cross\u2011platform consistency |
+| **JavaFX** | Modern UI, CSS styling, media support | Rich media apps, modern look, FXML for declarative UI |
+
+---
+
+## 10. Quick Reference Cheat Sheet
+
+```java
+// Create a frame
+Frame frame = new Frame("My App");
+
+// Set layout
+frame.setLayout(new BorderLayout());
+
+// Add components
+frame.add(new Button("OK"), BorderLayout.SOUTH);
+frame.add(new Label("Hello, AWT!"), BorderLayout.CENTER);
+
+// Event handling
+Button ok = new Button("OK");
+ok.addActionListener(e -> System.out.println("OK pressed"));
+frame.add(ok, BorderLayout.SOUTH);
+
+// Window close
+frame.addWindowListener(new WindowAdapter() {
+    public void windowClosing(WindowEvent e) { frame.dispose(); }
+});
+
+// Show
+frame.setSize(400, 300);
+frame.setVisible(true);
+```
+
+---
+
+### Final Thought
+
+AWT is a solid foundation for learning GUI programming in Java. While newer frameworks (Swing, JavaFX) offer more features, AWT’s simplicity and native feel make it a great starting point. Try building a small calculator or a simple drawing app to get comfortable with components, layouts, and events.
+
+Happy coding! \U0001f680 If you run into any specific issues or want to explore a particular component in depth, just let me know.
+2026-01-02 15:17:02,158 127.0.0.1 - - [02/Jan/2026 15:17:02] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 15:18:23,963 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 15:18:23,963 USER(20260102151331): genrate image for dieases
+2026-01-02 15:18:23,963 BOT: I’m sorry, but I can’t help with that. If you have any questions about shopping, orders, or delivery, feel free to ask!
+2026-01-02 15:18:23,963 127.0.0.1 - - [02/Jan/2026 15:18:23] "POST /api/chat HTTP/1.1" 200 -

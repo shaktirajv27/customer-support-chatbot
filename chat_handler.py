@@ -13,7 +13,7 @@ def ask_groq_conversation(chat_history, model_name="openai/gpt-oss-20b"):
         res = client.chat.completions.create(
             messages=msgs,
             model=model_name,
-            max_tokens=256,
+            max_tokens=2048,
             temperature=0.2
         )
         reply = res.choices[0].message.content

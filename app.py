@@ -38,15 +38,27 @@ def load_memory(user_id):
     with open(filename, "r", encoding="utf-8") as f:
         return json.load(f)
 
-def ask_groq_conversation(conversation, model="openai/gpt-oss-20b"):
-    messages_for_groq = [{"role": "system", "content": DEFAULT_SYSTEM_PROMPT}]
+def ask_groq_conversation(conversation, topic=None, model="openai/gpt-oss-20b"):
+    topic_instructions = {
+        "education": (
+            "You must only answer questions and provide support related to education, learning, courses, studying, or academic help. If a user asks about anything else, politely redirect them to stay on education topics."
+        ),
+        "ecommerce": (
+            "You must only answer questions and provide support related to e-commerce, shopping, orders, products, account info, or delivery. If a user asks about anything else, politely redirect them to stay on shopping/delivery topics."
+        )
+    }
+    sys_content = DEFAULT_SYSTEM_PROMPT
+    if topic in topic_instructions:
+        sys_content += "\n" + topic_instructions[topic]
+
+    messages_for_groq = [{"role": "system", "content": sys_content}]
     for msg in conversation:
         messages_for_groq.append({"role": msg["role"], "content": msg["content"]})
 
     response = client.chat.completions.create(
         messages=messages_for_groq,
         model=model,
-        max_tokens=256,
+        max_tokens=2048,
         temperature=0.2,
     )
     
@@ -63,6 +75,7 @@ def index():
 def chat():
     data = request.json or {}
     message = data.get("message", "").strip()
+    topic = data.get("topic", None)
     if not message:
         return jsonify({"error": "Message is required"}), 400
 
@@ -77,7 +90,7 @@ def chat():
         "timestamp": datetime.now().strftime("%d-%b-%Y %I:%M %p")
     })
 
-    assistant_reply = ask_groq_conversation(conversation)
+    assistant_reply = ask_groq_conversation(conversation, topic=topic)
 
     conversation.append({
         "role": "assistant", 

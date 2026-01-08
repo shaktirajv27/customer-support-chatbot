@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "content": "how to order in zomato",
+    "timestamp": "02-Jan-2026 01:42 PM"
+  },
+  {
+    "role": "assistant",
+    "content": "Sure thing! Ordering on Zomato is quick and easy. Here’s a simple step‑by‑step guide:\n\n1. **Open the App or Website**  \n   - If you haven’t already, download the Zomato app from the App Store (iOS) or Google Play (Android).  \n   - Alternatively, visit the Zomato website at www.zomato.com.\n\n2. **Sign In / Sign Up**  \n   - Tap “Login” or “Sign Up” in the top right corner.  \n   - You can log in with your email, phone number, or social media account.  \n   - If you’re new, create an account – it only takes a minute.\n\n3. **Enter Your Delivery Address**  \n   - Once logged in, the app will ask for your location.  \n   - You can manually enter your address or allow the app to use GPS.  \n   - This helps Zomato show you restaurants that deliver to you.\n\n4. **Browse Restaurants**  \n   - Use the search bar to look for",
+    "timestamp": "02-Jan-2026 01:42 PM"
+  }
+]

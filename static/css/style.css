@@ -35,6 +35,52 @@ body.light {
   color: var(--lightt);
 }
 
+.topic-select-wrapper {
+  width: 100%;
+  background: rgba(49, 51, 56, 0.95);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  border-bottom: 1px solid #444;
+  position: sticky;
+  top: 60px;
+  z-index: 60;
+}
+.topic-select-wrapper label {
+  font-weight: 500;
+  color: #bbb;
+  margin-right: 7px;
+  font-size: 1rem;
+}
+.topic-select-wrapper select {
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #666;
+  background: #383a40;
+  color: #e2e3e5;
+  padding: 0.3em 1.1em 0.3em 0.7em;
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+  transition: border-color 0.15s;
+}
+.topic-select-wrapper select:focus {
+  border-color: #5865f2;
+}
+body.light .topic-select-wrapper {
+  background: rgba(255,255,255,0.97);
+  border-bottom: 1px solid #eee;
+}
+body.light .topic-select-wrapper label {
+  color: #313338;
+}
+body.light .topic-select-wrapper select {
+  background: #fff;
+  color: #2d3554;
+  border: 1px solid #ddd;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -215,6 +261,76 @@ body.light .header {
   color: #fff;
   outline: none;
 }
+
+#micBtn {
+  width: 44px;
+  height: 44px;
+  background: #383a40;
+  border: none;
+  border-radius: 50%;
+  margin-right: 0.35rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.22s, color 0.18s, box-shadow 0.22s;
+  color: #bbb;
+  cursor: pointer;
+  box-shadow: 0 1px 6px 0 #2222;
+  outline: none;
+  position: relative;
+}
+#micBtn:focus {
+  box-shadow: 0 0 0 2px #5865f2, 0 1px 6px 0 #2222;
+}
+#micBtn:hover {
+  background: #5865f2;
+  color: #fff;
+}
+#micBtn.recording {
+  background: #fae4e0;
+  color: #e74c3c;
+}
+#micBtn .mic-pulse {
+  opacity: 0;
+  transition: opacity 0.33s;
+}
+#micBtn.recording .mic-pulse {
+  opacity: 1;
+  animation: micPulse 1.45s infinite alternate;
+}
+@keyframes micPulse {
+  0% { opacity: 0.13; }
+  40% { opacity: 0.36; }
+  100% { opacity: 0.16; }
+}
+#micBtn .mic-base {
+  filter: none;
+}
+#micBtn.recording .mic-base {
+  color: #e74c3c;
+  filter: drop-shadow(0 0 2px #fa6565);
+}
+
+body.light #micBtn {
+  background: #fff;
+  color: #0078ff;
+  border: 1px solid #eee;
+}
+body.light #micBtn.recording {
+  color: #e74c3c;
+  background: #ffe9e4;
+}
+.mic-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px; height: 26px;
+}
+#micBtn .mic-icon {
+  display: block;
+}
+
 
 .chat-form input::placeholder {
   color: #999;
