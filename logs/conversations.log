@@ -1,0 +1,548 @@
+2025-10-27 00:18:29,918 127.0.0.1 - - [27/Oct/2025 00:18:29] "GET / HTTP/1.1" 200 -
+2025-10-27 00:18:29,943 127.0.0.1 - - [27/Oct/2025 00:18:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-27 00:18:29,945 127.0.0.1 - - [27/Oct/2025 00:18:29] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-27 00:18:30,010 127.0.0.1 - - [27/Oct/2025 00:18:30] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-27 00:18:33,083 127.0.0.1 - - [27/Oct/2025 00:18:33] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-10-27 00:18:33,085 127.0.0.1 - - [27/Oct/2025 00:18:33] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-10-27 00:18:33,571 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 00:18:33,571 USER(20251027001636): hyyy
+2025-10-27 00:18:33,571 BOT: Hey there! \U0001f44b How can I help you today?
+2025-10-27 00:18:33,571 127.0.0.1 - - [27/Oct/2025 00:18:33] "POST /api/chat HTTP/1.1" 200 -
+2025-10-27 00:18:42,597 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 00:18:42,598 USER(20251027001636): what is your name
+2025-10-27 00:18:42,598 BOT: Hi! I’m ChatGPT, your friendly customer support assistant. How can I help you today?
+2025-10-27 00:18:42,598 127.0.0.1 - - [27/Oct/2025 00:18:42] "POST /api/chat HTTP/1.1" 200 -
+2025-10-27 00:18:49,201 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 00:18:49,201 USER(20251027001636): my name is prins
+2025-10-27 00:18:49,201 BOT: Nice to meet you, Prins! How can I assist you today?
+2025-10-27 00:18:49,201 127.0.0.1 - - [27/Oct/2025 00:18:49] "POST /api/chat HTTP/1.1" 200 -
+2025-10-27 00:19:02,761 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 00:19:02,761 USER(20251027001636): my favourite food is khaman
+2025-10-27 00:19:02,761 BOT: That sounds delicious, Prins! I’m not familiar with khaman—could you tell me a bit more about it? Is it a dish from a particular cuisine or a special recipe you love?
+2025-10-27 00:19:02,761 127.0.0.1 - - [27/Oct/2025 00:19:02] "POST /api/chat HTTP/1.1" 200 -
+2025-10-27 00:19:09,940 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 00:19:09,943 USER(20251027001636): what is khaman
+2025-10-27 00:19:09,943 BOT: Hey Prins! \U0001f44b
+
+**Khaman** (sometimes spelled *khaman* or *khaman dhokla*) is a classic Gujarati snack that’s both fluffy and savory. Think of it as a thicker, softer cousin of dhokla. Here’s a quick rundown:
+
+| What it is | How it’s made | Why it’s loved |
+|------------|---------------|----------------|
+| **A steamed cake** | Made from a fermented batter of rice, chickpea (besan) flour, yogurt, and a touch of spice. The batter is poured into a greased
+2025-10-27 00:19:09,943 127.0.0.1 - - [27/Oct/2025 00:19:09] "POST /api/chat HTTP/1.1" 200 -
+2025-10-27 00:19:34,955 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-27 00:19:34,957 USER(20251027001636): what is my favourite food
+2025-10-27 00:19:34,957 BOT: Your favourite food is **khaman**! \U0001f31f It’s that fluffy, savory Gujarati snack that’s a bit like a thicker, softer dhokla. Enjoy!
+2025-10-27 00:19:34,957 127.0.0.1 - - [27/Oct/2025 00:19:34] "POST /api/chat HTTP/1.1" 200 -
+2025-10-29 13:39:04,850 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.234.63.85:5000
+2025-10-29 13:39:04,850 [33mPress CTRL+C to quit[0m
+2025-10-29 13:39:04,892  * Restarting with watchdog (windowsapi)
+2025-10-29 13:39:05,782  * Debugger is active!
+2025-10-29 13:39:05,785  * Debugger PIN: 489-404-170
+2025-10-29 13:40:05,229 127.0.0.1 - - [29/Oct/2025 13:40:05] "GET / HTTP/1.1" 200 -
+2025-10-29 13:40:05,414 127.0.0.1 - - [29/Oct/2025 13:40:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-29 13:40:05,447 127.0.0.1 - - [29/Oct/2025 13:40:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-29 13:40:05,465 127.0.0.1 - - [29/Oct/2025 13:40:05] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-29 13:40:05,498 127.0.0.1 - - [29/Oct/2025 13:40:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-29 13:40:10,031 127.0.0.1 - - [29/Oct/2025 13:40:10] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-10-29 13:40:10,031 127.0.0.1 - - [29/Oct/2025 13:40:10] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-10-29 13:40:10,589 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-29 13:40:10,605 USER(20251029134010): hello
+2025-10-29 13:40:10,605 BOT: Hello! \U0001f44b How can I help you today?
+2025-10-29 13:40:10,605 127.0.0.1 - - [29/Oct/2025 13:40:10] "POST /api/chat HTTP/1.1" 200 -
+2025-10-29 13:40:17,785 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-29 13:40:17,785 USER(20251029134010): how are you
+2025-10-29 13:40:17,785 BOT: I’m doing great, thank you for asking! How can I assist you today?
+2025-10-29 13:40:17,785 127.0.0.1 - - [29/Oct/2025 13:40:17] "POST /api/chat HTTP/1.1" 200 -
+2025-10-29 13:40:26,454 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-29 13:40:26,454 USER(20251029134010): my name is prins
+2025-10-29 13:40:26,454 BOT: Nice to meet you, Prins! How can I help you today?
+2025-10-29 13:40:26,461 127.0.0.1 - - [29/Oct/2025 13:40:26] "POST /api/chat HTTP/1.1" 200 -
+2025-10-29 13:40:37,046 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-29 13:40:37,046 USER(20251029134010): what is your name?
+2025-10-29 13:40:37,046 BOT: I’m ChatGPT, your friendly virtual assistant here to help you out! How can I assist you today?
+2025-10-29 13:40:37,046 127.0.0.1 - - [29/Oct/2025 13:40:37] "POST /api/chat HTTP/1.1" 200 -
+2025-10-29 13:40:44,447 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-29 13:40:44,449 USER(20251029134010): what is my name?
+2025-10-29 13:40:44,449 BOT: You mentioned earlier that your name is Prins. Is there anything else I can help you with today?
+2025-10-29 13:40:44,450 127.0.0.1 - - [29/Oct/2025 13:40:44] "POST /api/chat HTTP/1.1" 200 -
+2025-10-29 13:41:07,761 127.0.0.1 - - [29/Oct/2025 13:41:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-29 13:41:07,763 127.0.0.1 - - [29/Oct/2025 13:41:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-29 14:47:05,619  * Detected change in 'C:\\Users\\prins\\OneDrive\\Desktop\\customer-support-chatbot\\app.py', reloading
+2025-10-29 14:47:06,383  * Detected change in 'C:\\Users\\prins\\OneDrive\\Desktop\\customer-support-chatbot\\chat_handler.py', reloading
+2025-10-29 14:47:07,051  * Restarting with watchdog (windowsapi)
+2025-10-29 14:47:08,735  * Debugger is active!
+2025-10-29 14:47:08,742  * Debugger PIN: 489-404-170
+2025-10-30 15:20:40,907 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.201.249.85:5000
+2025-10-30 15:20:40,907 [33mPress CTRL+C to quit[0m
+2025-10-30 15:20:40,955  * Restarting with watchdog (windowsapi)
+2025-10-30 15:20:41,773  * Debugger is active!
+2025-10-30 15:20:41,781  * Debugger PIN: 489-404-170
+2025-10-30 15:20:51,810 127.0.0.1 - - [30/Oct/2025 15:20:51] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:52,013 127.0.0.1 - - [30/Oct/2025 15:20:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-10-30 15:20:52,026 127.0.0.1 - - [30/Oct/2025 15:20:52] "GET /static/images/dark_background.jpg HTTP/1.1" 200 -
+2025-10-30 15:20:52,029 127.0.0.1 - - [30/Oct/2025 15:20:52] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-10-30 15:20:52,066 127.0.0.1 - - [30/Oct/2025 15:20:52] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-10-30 15:20:52,096 127.0.0.1 - - [30/Oct/2025 15:20:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-10-30 15:20:54,356 127.0.0.1 - - [30/Oct/2025 15:20:54] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:54,383 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,384 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,384 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,501 127.0.0.1 - - [30/Oct/2025 15:20:54] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:54,528 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,529 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,529 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,738 127.0.0.1 - - [30/Oct/2025 15:20:54] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:54,764 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,767 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,768 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,884 127.0.0.1 - - [30/Oct/2025 15:20:54] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:54,906 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,909 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:20:54,911 127.0.0.1 - - [30/Oct/2025 15:20:54] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,042 127.0.0.1 - - [30/Oct/2025 15:20:55] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:55,067 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,070 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,071 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,215 127.0.0.1 - - [30/Oct/2025 15:20:55] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:55,247 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,247 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,249 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,429 127.0.0.1 - - [30/Oct/2025 15:20:55] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:55,457 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,460 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,461 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,611 127.0.0.1 - - [30/Oct/2025 15:20:55] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:55,637 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,637 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,639 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,841 127.0.0.1 - - [30/Oct/2025 15:20:55] "GET / HTTP/1.1" 200 -
+2025-10-30 15:20:55,866 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,869 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:20:55,871 127.0.0.1 - - [30/Oct/2025 15:20:55] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:20:57,424 127.0.0.1 - - [30/Oct/2025 15:20:57] "GET /static/images/ligth_background.jpg HTTP/1.1" 200 -
+2025-10-30 15:22:07,698 127.0.0.1 - - [30/Oct/2025 15:22:07] "GET / HTTP/1.1" 200 -
+2025-10-30 15:22:07,729 127.0.0.1 - - [30/Oct/2025 15:22:07] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:22:07,730 127.0.0.1 - - [30/Oct/2025 15:22:07] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:22:07,739 127.0.0.1 - - [30/Oct/2025 15:22:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-10-30 15:22:07,754 127.0.0.1 - - [30/Oct/2025 15:22:07] "[36mGET /static/images/dark_background.jpg HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,418 127.0.0.1 - - [30/Oct/2025 15:22:08] "GET / HTTP/1.1" 200 -
+2025-10-30 15:22:08,446 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,448 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,450 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,570 127.0.0.1 - - [30/Oct/2025 15:22:08] "GET / HTTP/1.1" 200 -
+2025-10-30 15:22:08,590 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,596 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,596 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,729 127.0.0.1 - - [30/Oct/2025 15:22:08] "GET / HTTP/1.1" 200 -
+2025-10-30 15:22:08,754 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,755 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,758 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,887 127.0.0.1 - - [30/Oct/2025 15:22:08] "GET / HTTP/1.1" 200 -
+2025-10-30 15:22:08,913 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,914 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:22:08,915 127.0.0.1 - - [30/Oct/2025 15:22:08] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:22:09,047 127.0.0.1 - - [30/Oct/2025 15:22:09] "GET / HTTP/1.1" 200 -
+2025-10-30 15:22:09,073 127.0.0.1 - - [30/Oct/2025 15:22:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:22:09,076 127.0.0.1 - - [30/Oct/2025 15:22:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:22:09,077 127.0.0.1 - - [30/Oct/2025 15:22:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:22:09,233 127.0.0.1 - - [30/Oct/2025 15:22:09] "GET / HTTP/1.1" 200 -
+2025-10-30 15:22:09,254 127.0.0.1 - - [30/Oct/2025 15:22:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:22:09,256 127.0.0.1 - - [30/Oct/2025 15:22:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:22:09,257 127.0.0.1 - - [30/Oct/2025 15:22:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:22:10,486 127.0.0.1 - - [30/Oct/2025 15:22:10] "[33mGET /static/images/light_background.jpg HTTP/1.1[0m" 404 -
+2025-10-30 15:22:40,532 127.0.0.1 - - [30/Oct/2025 15:22:40] "GET / HTTP/1.1" 200 -
+2025-10-30 15:22:40,561 127.0.0.1 - - [30/Oct/2025 15:22:40] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:22:40,563 127.0.0.1 - - [30/Oct/2025 15:22:40] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:22:40,574 127.0.0.1 - - [30/Oct/2025 15:22:40] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-10-30 15:22:40,586 127.0.0.1 - - [30/Oct/2025 15:22:40] "[36mGET /static/images/dark_background.jpg HTTP/1.1[0m" 304 -
+2025-10-30 15:22:40,598 127.0.0.1 - - [30/Oct/2025 15:22:40] "[33mGET /static/images/light_background.jpg HTTP/1.1[0m" 404 -
+2025-10-30 15:24:20,544 127.0.0.1 - - [30/Oct/2025 15:24:20] "GET / HTTP/1.1" 200 -
+2025-10-30 15:24:20,573 127.0.0.1 - - [30/Oct/2025 15:24:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:24:20,575 127.0.0.1 - - [30/Oct/2025 15:24:20] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:24:20,585 127.0.0.1 - - [30/Oct/2025 15:24:20] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-10-30 15:24:20,597 127.0.0.1 - - [30/Oct/2025 15:24:20] "[36mGET /static/images/dark_background.jpg HTTP/1.1[0m" 304 -
+2025-10-30 15:24:20,755 127.0.0.1 - - [30/Oct/2025 15:24:20] "GET / HTTP/1.1" 200 -
+2025-10-30 15:24:20,780 127.0.0.1 - - [30/Oct/2025 15:24:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:24:20,783 127.0.0.1 - - [30/Oct/2025 15:24:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:24:20,784 127.0.0.1 - - [30/Oct/2025 15:24:20] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,111 127.0.0.1 - - [30/Oct/2025 15:24:21] "GET / HTTP/1.1" 200 -
+2025-10-30 15:24:21,142 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,144 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,145 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,263 127.0.0.1 - - [30/Oct/2025 15:24:21] "GET / HTTP/1.1" 200 -
+2025-10-30 15:24:21,284 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,286 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,288 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,401 127.0.0.1 - - [30/Oct/2025 15:24:21] "GET / HTTP/1.1" 200 -
+2025-10-30 15:24:21,425 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,427 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,427 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,555 127.0.0.1 - - [30/Oct/2025 15:24:21] "GET / HTTP/1.1" 200 -
+2025-10-30 15:24:21,579 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,583 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,584 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,735 127.0.0.1 - - [30/Oct/2025 15:24:21] "GET / HTTP/1.1" 200 -
+2025-10-30 15:24:21,760 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,763 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,764 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,882 127.0.0.1 - - [30/Oct/2025 15:24:21] "GET / HTTP/1.1" 200 -
+2025-10-30 15:24:21,903 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,904 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:24:21,907 127.0.0.1 - - [30/Oct/2025 15:24:21] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:24:22,100 127.0.0.1 - - [30/Oct/2025 15:24:22] "GET / HTTP/1.1" 200 -
+2025-10-30 15:24:22,128 127.0.0.1 - - [30/Oct/2025 15:24:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-10-30 15:24:22,133 127.0.0.1 - - [30/Oct/2025 15:24:22] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-10-30 15:24:22,138 127.0.0.1 - - [30/Oct/2025 15:24:22] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-10-30 15:25:35,934 127.0.0.1 - - [30/Oct/2025 15:25:35] "GET /static/images/user-logo.png HTTP/1.1" 200 -
+2025-10-30 15:25:35,956 127.0.0.1 - - [30/Oct/2025 15:25:35] "GET /static/images/bot-logo.png HTTP/1.1" 200 -
+2025-10-30 15:25:37,673 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 15:25:37,700 USER(20251030152535): hello
+2025-10-30 15:25:37,700 BOT: Hello! \U0001f44b How can I help you today?
+2025-10-30 15:25:37,703 127.0.0.1 - - [30/Oct/2025 15:25:37] "POST /api/chat HTTP/1.1" 200 -
+2025-10-30 15:25:44,866 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 15:25:44,868 USER(20251030152535): how are you
+2025-10-30 15:25:44,868 BOT: I’m doing great—thanks for asking! How can I assist you today?
+2025-10-30 15:25:44,869 127.0.0.1 - - [30/Oct/2025 15:25:44] "POST /api/chat HTTP/1.1" 200 -
+2025-10-30 15:25:56,093 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-30 15:25:56,094 USER(20251030152535): what is your name
+2025-10-30 15:25:56,095 BOT: I’m ChatGPT, your friendly customer support assistant. How can I help you today?
+2025-10-30 15:25:56,095 127.0.0.1 - - [30/Oct/2025 15:25:56] "POST /api/chat HTTP/1.1" 200 -
+2025-11-03 13:04:25,886 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.128.5.85:5000
+2025-11-03 13:04:25,886 [33mPress CTRL+C to quit[0m
+2025-11-03 13:04:25,903  * Restarting with watchdog (windowsapi)
+2025-11-03 13:04:26,811  * Debugger is active!
+2025-11-03 13:04:26,818  * Debugger PIN: 489-404-170
+2025-11-03 13:04:38,094 127.0.0.1 - - [03/Nov/2025 13:04:38] "GET / HTTP/1.1" 200 -
+2025-11-03 13:04:38,518 127.0.0.1 - - [03/Nov/2025 13:04:38] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-11-03 13:04:38,529 127.0.0.1 - - [03/Nov/2025 13:04:38] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-11-03 13:04:38,539 127.0.0.1 - - [03/Nov/2025 13:04:38] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-11-03 13:04:38,625 127.0.0.1 - - [03/Nov/2025 13:04:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-03 13:04:43,270 127.0.0.1 - - [03/Nov/2025 13:04:43] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-11-03 13:04:43,275 127.0.0.1 - - [03/Nov/2025 13:04:43] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-11-03 13:04:45,331 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-11-03 13:04:45,350 USER(20251103130443): hello
+2025-11-03 13:04:45,350 BOT: Hello! \U0001f44b How can I help you today?
+2025-11-03 13:04:45,353 127.0.0.1 - - [03/Nov/2025 13:04:45] "POST /api/chat HTTP/1.1" 200 -
+2025-12-11 10:01:32,032 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.240.42.199:5000
+2025-12-11 10:01:32,033 [33mPress CTRL+C to quit[0m
+2025-12-11 10:01:32,034  * Restarting with stat
+2025-12-11 10:01:32,764  * Debugger is active!
+2025-12-11 10:01:32,776  * Debugger PIN: 342-538-669
+2025-12-29 12:57:36,415 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.86.187.199:5000
+2025-12-29 12:57:36,416 [33mPress CTRL+C to quit[0m
+2025-12-29 12:57:36,417  * Restarting with stat
+2025-12-29 12:57:37,222  * Debugger is active!
+2025-12-29 12:57:37,224  * Debugger PIN: 814-560-840
+2025-12-29 12:57:52,615 127.0.0.1 - - [29/Dec/2025 12:57:52] "GET / HTTP/1.1" 200 -
+2025-12-29 12:57:52,722 127.0.0.1 - - [29/Dec/2025 12:57:52] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-29 12:57:52,724 127.0.0.1 - - [29/Dec/2025 12:57:52] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-12-29 12:57:52,789 127.0.0.1 - - [29/Dec/2025 12:57:52] "GET /static/images/logo.png HTTP/1.1" 200 -
+2025-12-29 12:57:52,878 127.0.0.1 - - [29/Dec/2025 12:57:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-12-29 12:57:56,103 127.0.0.1 - - [29/Dec/2025 12:57:56] "GET /static/images/bot-logo.png HTTP/1.1" 200 -
+2025-12-29 12:57:56,103 127.0.0.1 - - [29/Dec/2025 12:57:56] "GET /static/images/user-logo.png HTTP/1.1" 200 -
+2025-12-29 12:57:56,566 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-29 12:57:56,580 USER(20251229125756): hii
+2025-12-29 12:57:56,580 BOT: Hello! \U0001f44b How can I help you today?
+2025-12-29 12:57:56,580 127.0.0.1 - - [29/Dec/2025 12:57:56] "POST /api/chat HTTP/1.1" 200 -
+2025-12-29 12:58:01,387 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-29 12:58:01,387 USER(20251229125756): who i am
+2025-12-29 12:58:01,387 BOT: I’m not sure I understand—could you tell me a bit more about what you’re looking for? \U0001f60a
+2025-12-29 12:58:01,387 127.0.0.1 - - [29/Dec/2025 12:58:01] "POST /api/chat HTTP/1.1" 200 -
+2025-12-29 13:04:00,141 127.0.0.1 - - [29/Dec/2025 13:04:00] "GET / HTTP/1.1" 200 -
+2025-12-29 13:04:00,157 127.0.0.1 - - [29/Dec/2025 13:04:00] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-29 13:04:00,160 127.0.0.1 - - [29/Dec/2025 13:04:00] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:04:00,160 127.0.0.1 - - [29/Dec/2025 13:04:00] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:05:19,913 127.0.0.1 - - [29/Dec/2025 13:05:19] "GET / HTTP/1.1" 200 -
+2025-12-29 13:05:19,934 127.0.0.1 - - [29/Dec/2025 13:05:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-29 13:05:19,937 127.0.0.1 - - [29/Dec/2025 13:05:19] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:05:19,938 127.0.0.1 - - [29/Dec/2025 13:05:19] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:08:56,110 127.0.0.1 - - [29/Dec/2025 13:08:56] "GET / HTTP/1.1" 200 -
+2025-12-29 13:08:56,127 127.0.0.1 - - [29/Dec/2025 13:08:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:08:56,129 127.0.0.1 - - [29/Dec/2025 13:08:56] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:08:56,130 127.0.0.1 - - [29/Dec/2025 13:08:56] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:09:16,768 127.0.0.1 - - [29/Dec/2025 13:09:16] "GET / HTTP/1.1" 200 -
+2025-12-29 13:09:16,785 127.0.0.1 - - [29/Dec/2025 13:09:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:09:16,786 127.0.0.1 - - [29/Dec/2025 13:09:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:09:16,786 127.0.0.1 - - [29/Dec/2025 13:09:16] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:09:16,906 127.0.0.1 - - [29/Dec/2025 13:09:16] "GET / HTTP/1.1" 200 -
+2025-12-29 13:09:16,925 127.0.0.1 - - [29/Dec/2025 13:09:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:09:16,926 127.0.0.1 - - [29/Dec/2025 13:09:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:09:16,927 127.0.0.1 - - [29/Dec/2025 13:09:16] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:09:17,068 127.0.0.1 - - [29/Dec/2025 13:09:17] "GET / HTTP/1.1" 200 -
+2025-12-29 13:09:17,087 127.0.0.1 - - [29/Dec/2025 13:09:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:09:17,088 127.0.0.1 - - [29/Dec/2025 13:09:17] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:09:17,089 127.0.0.1 - - [29/Dec/2025 13:09:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:09:17,207 127.0.0.1 - - [29/Dec/2025 13:09:17] "GET / HTTP/1.1" 200 -
+2025-12-29 13:09:17,225 127.0.0.1 - - [29/Dec/2025 13:09:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:09:17,226 127.0.0.1 - - [29/Dec/2025 13:09:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:09:17,226 127.0.0.1 - - [29/Dec/2025 13:09:17] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:09:17,423 127.0.0.1 - - [29/Dec/2025 13:09:17] "GET / HTTP/1.1" 200 -
+2025-12-29 13:09:17,447 127.0.0.1 - - [29/Dec/2025 13:09:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:09:17,448 127.0.0.1 - - [29/Dec/2025 13:09:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:09:17,448 127.0.0.1 - - [29/Dec/2025 13:09:17] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:11:34,762 127.0.0.1 - - [29/Dec/2025 13:11:34] "GET / HTTP/1.1" 200 -
+2025-12-29 13:11:34,780 127.0.0.1 - - [29/Dec/2025 13:11:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:11:34,783 127.0.0.1 - - [29/Dec/2025 13:11:34] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:11:34,784 127.0.0.1 - - [29/Dec/2025 13:11:34] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,370 127.0.0.1 - - [29/Dec/2025 13:11:35] "GET / HTTP/1.1" 200 -
+2025-12-29 13:11:35,389 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,392 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,393 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,531 127.0.0.1 - - [29/Dec/2025 13:11:35] "GET / HTTP/1.1" 200 -
+2025-12-29 13:11:35,546 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,550 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,551 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,675 127.0.0.1 - - [29/Dec/2025 13:11:35] "GET / HTTP/1.1" 200 -
+2025-12-29 13:11:35,695 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,696 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,696 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,840 127.0.0.1 - - [29/Dec/2025 13:11:35] "GET / HTTP/1.1" 200 -
+2025-12-29 13:11:35,856 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,858 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,858 127.0.0.1 - - [29/Dec/2025 13:11:35] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:11:35,994 127.0.0.1 - - [29/Dec/2025 13:11:35] "GET / HTTP/1.1" 200 -
+2025-12-29 13:11:36,011 127.0.0.1 - - [29/Dec/2025 13:11:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:11:36,013 127.0.0.1 - - [29/Dec/2025 13:11:36] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:11:36,014 127.0.0.1 - - [29/Dec/2025 13:11:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:11:36,155 127.0.0.1 - - [29/Dec/2025 13:11:36] "GET / HTTP/1.1" 200 -
+2025-12-29 13:11:36,172 127.0.0.1 - - [29/Dec/2025 13:11:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:11:36,173 127.0.0.1 - - [29/Dec/2025 13:11:36] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:11:36,174 127.0.0.1 - - [29/Dec/2025 13:11:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:11:36,368 127.0.0.1 - - [29/Dec/2025 13:11:36] "GET / HTTP/1.1" 200 -
+2025-12-29 13:11:36,383 127.0.0.1 - - [29/Dec/2025 13:11:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:11:36,385 127.0.0.1 - - [29/Dec/2025 13:11:36] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:11:36,386 127.0.0.1 - - [29/Dec/2025 13:11:36] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:13:09,403 127.0.0.1 - - [29/Dec/2025 13:13:09] "GET / HTTP/1.1" 200 -
+2025-12-29 13:13:09,421 127.0.0.1 - - [29/Dec/2025 13:13:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-29 13:13:09,425 127.0.0.1 - - [29/Dec/2025 13:13:09] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:13:09,425 127.0.0.1 - - [29/Dec/2025 13:13:09] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:22:55,361 127.0.0.1 - - [29/Dec/2025 13:22:55] "GET / HTTP/1.1" 200 -
+2025-12-29 13:22:55,375 127.0.0.1 - - [29/Dec/2025 13:22:55] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-29 13:22:55,377 127.0.0.1 - - [29/Dec/2025 13:22:55] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-12-29 13:22:55,388 127.0.0.1 - - [29/Dec/2025 13:22:55] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:22:58,181 127.0.0.1 - - [29/Dec/2025 13:22:58] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:22:58,570 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-29 13:22:58,572 USER(20251229125756): hii
+2025-12-29 13:22:58,572 BOT: Hi there! \U0001f44b How can I assist you today?
+2025-12-29 13:22:58,572 127.0.0.1 - - [29/Dec/2025 13:22:58] "POST /api/chat HTTP/1.1" 200 -
+2025-12-29 13:25:19,389 127.0.0.1 - - [29/Dec/2025 13:25:19] "GET / HTTP/1.1" 200 -
+2025-12-29 13:25:19,405 127.0.0.1 - - [29/Dec/2025 13:25:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-29 13:25:19,407 127.0.0.1 - - [29/Dec/2025 13:25:19] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-12-29 13:25:19,407 127.0.0.1 - - [29/Dec/2025 13:25:19] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:25:25,885 127.0.0.1 - - [29/Dec/2025 13:25:25] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:28:01,845 127.0.0.1 - - [29/Dec/2025 13:28:01] "GET / HTTP/1.1" 200 -
+2025-12-29 13:28:01,861 127.0.0.1 - - [29/Dec/2025 13:28:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-29 13:28:01,863 127.0.0.1 - - [29/Dec/2025 13:28:01] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:28:01,864 127.0.0.1 - - [29/Dec/2025 13:28:01] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:28:06,884 127.0.0.1 - - [29/Dec/2025 13:28:06] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:35:11,787 127.0.0.1 - - [29/Dec/2025 13:35:11] "GET / HTTP/1.1" 200 -
+2025-12-29 13:35:11,802 127.0.0.1 - - [29/Dec/2025 13:35:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:35:11,806 127.0.0.1 - - [29/Dec/2025 13:35:11] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:35:11,806 127.0.0.1 - - [29/Dec/2025 13:35:11] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:35:14,927 127.0.0.1 - - [29/Dec/2025 13:35:14] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:36:57,475 127.0.0.1 - - [29/Dec/2025 13:36:57] "GET / HTTP/1.1" 200 -
+2025-12-29 13:36:57,490 127.0.0.1 - - [29/Dec/2025 13:36:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:36:57,494 127.0.0.1 - - [29/Dec/2025 13:36:57] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:36:57,495 127.0.0.1 - - [29/Dec/2025 13:36:57] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:00,340 127.0.0.1 - - [29/Dec/2025 13:37:00] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:03,878 127.0.0.1 - - [29/Dec/2025 13:37:03] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:03,900 127.0.0.1 - - [29/Dec/2025 13:37:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:03,903 127.0.0.1 - - [29/Dec/2025 13:37:03] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:03,904 127.0.0.1 - - [29/Dec/2025 13:37:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,111 127.0.0.1 - - [29/Dec/2025 13:37:04] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:04,128 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,130 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,131 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,256 127.0.0.1 - - [29/Dec/2025 13:37:04] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:04,275 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,276 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,277 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,402 127.0.0.1 - - [29/Dec/2025 13:37:04] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:04,422 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,425 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,425 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,535 127.0.0.1 - - [29/Dec/2025 13:37:04] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:04,555 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,556 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,557 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,666 127.0.0.1 - - [29/Dec/2025 13:37:04] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:04,681 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,688 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,689 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,792 127.0.0.1 - - [29/Dec/2025 13:37:04] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:04,809 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,812 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,813 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,916 127.0.0.1 - - [29/Dec/2025 13:37:04] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:04,936 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,937 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:04,937 127.0.0.1 - - [29/Dec/2025 13:37:04] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:05,057 127.0.0.1 - - [29/Dec/2025 13:37:05] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:05,073 127.0.0.1 - - [29/Dec/2025 13:37:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:05,075 127.0.0.1 - - [29/Dec/2025 13:37:05] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:05,076 127.0.0.1 - - [29/Dec/2025 13:37:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:05,174 127.0.0.1 - - [29/Dec/2025 13:37:05] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:05,193 127.0.0.1 - - [29/Dec/2025 13:37:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:05,195 127.0.0.1 - - [29/Dec/2025 13:37:05] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:05,195 127.0.0.1 - - [29/Dec/2025 13:37:05] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:14,527 127.0.0.1 - - [29/Dec/2025 13:37:14] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:14,548 127.0.0.1 - - [29/Dec/2025 13:37:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:14,554 127.0.0.1 - - [29/Dec/2025 13:37:14] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:14,554 127.0.0.1 - - [29/Dec/2025 13:37:14] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:16,199 127.0.0.1 - - [29/Dec/2025 13:37:16] "GET / HTTP/1.1" 200 -
+2025-12-29 13:37:16,216 127.0.0.1 - - [29/Dec/2025 13:37:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:37:16,218 127.0.0.1 - - [29/Dec/2025 13:37:16] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:37:16,220 127.0.0.1 - - [29/Dec/2025 13:37:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:37:18,186 127.0.0.1 - - [29/Dec/2025 13:37:18] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:38:20,394 127.0.0.1 - - [29/Dec/2025 13:38:20] "GET / HTTP/1.1" 200 -
+2025-12-29 13:38:20,409 127.0.0.1 - - [29/Dec/2025 13:38:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:38:20,411 127.0.0.1 - - [29/Dec/2025 13:38:20] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:38:20,412 127.0.0.1 - - [29/Dec/2025 13:38:20] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:38:22,293 127.0.0.1 - - [29/Dec/2025 13:38:22] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:38:27,706 127.0.0.1 - - [29/Dec/2025 13:38:27] "GET / HTTP/1.1" 200 -
+2025-12-29 13:38:27,724 127.0.0.1 - - [29/Dec/2025 13:38:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:38:27,726 127.0.0.1 - - [29/Dec/2025 13:38:27] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:38:27,726 127.0.0.1 - - [29/Dec/2025 13:38:27] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:38:28,205 127.0.0.1 - - [29/Dec/2025 13:38:28] "GET / HTTP/1.1" 200 -
+2025-12-29 13:38:28,223 127.0.0.1 - - [29/Dec/2025 13:38:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:38:28,225 127.0.0.1 - - [29/Dec/2025 13:38:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:38:28,226 127.0.0.1 - - [29/Dec/2025 13:38:28] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:38:28,409 127.0.0.1 - - [29/Dec/2025 13:38:28] "GET / HTTP/1.1" 200 -
+2025-12-29 13:38:28,429 127.0.0.1 - - [29/Dec/2025 13:38:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:38:28,429 127.0.0.1 - - [29/Dec/2025 13:38:28] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:38:28,429 127.0.0.1 - - [29/Dec/2025 13:38:28] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:38:30,747 127.0.0.1 - - [29/Dec/2025 13:38:30] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:44:14,982 127.0.0.1 - - [29/Dec/2025 13:44:14] "GET / HTTP/1.1" 200 -
+2025-12-29 13:44:15,001 127.0.0.1 - - [29/Dec/2025 13:44:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:44:15,003 127.0.0.1 - - [29/Dec/2025 13:44:15] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:44:15,003 127.0.0.1 - - [29/Dec/2025 13:44:15] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:44:18,707 127.0.0.1 - - [29/Dec/2025 13:44:18] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:44:31,363 127.0.0.1 - - [29/Dec/2025 13:44:31] "GET / HTTP/1.1" 200 -
+2025-12-29 13:44:31,380 127.0.0.1 - - [29/Dec/2025 13:44:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:44:31,385 127.0.0.1 - - [29/Dec/2025 13:44:31] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:44:31,385 127.0.0.1 - - [29/Dec/2025 13:44:31] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:44:45,153 127.0.0.1 - - [29/Dec/2025 13:44:45] "GET / HTTP/1.1" 200 -
+2025-12-29 13:44:45,173 127.0.0.1 - - [29/Dec/2025 13:44:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:44:45,176 127.0.0.1 - - [29/Dec/2025 13:44:45] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:44:45,176 127.0.0.1 - - [29/Dec/2025 13:44:45] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:45:15,822 127.0.0.1 - - [29/Dec/2025 13:45:15] "GET / HTTP/1.1" 200 -
+2025-12-29 13:45:15,840 127.0.0.1 - - [29/Dec/2025 13:45:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:45:15,841 127.0.0.1 - - [29/Dec/2025 13:45:15] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:45:15,844 127.0.0.1 - - [29/Dec/2025 13:45:15] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-12-29 13:45:16,728 127.0.0.1 - - [29/Dec/2025 13:45:16] "GET / HTTP/1.1" 200 -
+2025-12-29 13:45:16,747 127.0.0.1 - - [29/Dec/2025 13:45:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:45:16,748 127.0.0.1 - - [29/Dec/2025 13:45:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:45:16,748 127.0.0.1 - - [29/Dec/2025 13:45:16] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:45:16,853 127.0.0.1 - - [29/Dec/2025 13:45:16] "GET / HTTP/1.1" 200 -
+2025-12-29 13:45:16,873 127.0.0.1 - - [29/Dec/2025 13:45:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:45:16,875 127.0.0.1 - - [29/Dec/2025 13:45:16] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:45:16,876 127.0.0.1 - - [29/Dec/2025 13:45:16] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:45:17,072 127.0.0.1 - - [29/Dec/2025 13:45:17] "GET / HTTP/1.1" 200 -
+2025-12-29 13:45:17,086 127.0.0.1 - - [29/Dec/2025 13:45:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-12-29 13:45:17,095 127.0.0.1 - - [29/Dec/2025 13:45:17] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:45:17,095 127.0.0.1 - - [29/Dec/2025 13:45:17] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-12-29 13:45:18,858 127.0.0.1 - - [29/Dec/2025 13:45:18] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:45:19,854 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-29 13:45:19,855 USER(20251229134518): hii
+2025-12-29 13:45:19,855 BOT: Hello! \U0001f44b How can I help you today?
+2025-12-29 13:45:19,856 127.0.0.1 - - [29/Dec/2025 13:45:19] "POST /api/chat HTTP/1.1" 200 -
+2025-12-29 13:45:49,176 127.0.0.1 - - [29/Dec/2025 13:45:49] "GET / HTTP/1.1" 200 -
+2025-12-29 13:45:49,194 127.0.0.1 - - [29/Dec/2025 13:45:49] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-12-29 13:45:49,195 127.0.0.1 - - [29/Dec/2025 13:45:49] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+2025-12-29 13:45:49,197 127.0.0.1 - - [29/Dec/2025 13:45:49] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-01-02 11:52:37,822 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.202.52.199:5000
+2026-01-02 11:52:37,822 [33mPress CTRL+C to quit[0m
+2026-01-02 11:52:37,824  * Restarting with stat
+2026-01-02 11:52:38,683  * Debugger is active!
+2026-01-02 11:52:38,688  * Debugger PIN: 814-560-840
+2026-01-02 11:52:46,029 127.0.0.1 - - [02/Jan/2026 11:52:46] "GET / HTTP/1.1" 200 -
+2026-01-02 11:52:46,318 127.0.0.1 - - [02/Jan/2026 11:52:46] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-01-02 11:52:46,334 127.0.0.1 - - [02/Jan/2026 11:52:46] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-01-02 11:52:46,355 127.0.0.1 - - [02/Jan/2026 11:52:46] "GET /static/images/logo.png HTTP/1.1" 200 -
+2026-01-02 11:52:53,248 127.0.0.1 - - [02/Jan/2026 11:52:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-02 11:52:56,245 127.0.0.1 - - [02/Jan/2026 11:52:56] "GET /static/images/bot-logo.png HTTP/1.1" 200 -
+2026-01-02 11:52:56,245 127.0.0.1 - - [02/Jan/2026 11:52:56] "GET /static/images/user-logo.png HTTP/1.1" 200 -
+2026-01-02 11:52:57,573 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 11:52:57,592 USER(20260102115256): hii
+2026-01-02 11:52:57,592 BOT: Hello! \U0001f44b How can I help you today?
+2026-01-02 11:52:57,592 127.0.0.1 - - [02/Jan/2026 11:52:57] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 11:52:58,544 127.0.0.1 - - [02/Jan/2026 11:52:58] "[36mGET /static/images/bot-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 11:53:02,783 127.0.0.1 - - [02/Jan/2026 11:53:02] "[36mGET /static/images/user-logo.png HTTP/1.1[0m" 304 -
+2026-01-02 11:53:08,209 Retrying request to /openai/v1/chat/completions in 0.493680 seconds
+2026-01-02 11:53:13,411 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 11:53:13,411 USER(20260102115256): who are you
+2026-01-02 11:53:13,411 BOT: I’m your friendly customer support assistant—here to help answer questions, solve issues, and make your experience smooth and enjoyable. How can I assist you today?
+2026-01-02 11:53:13,411 127.0.0.1 - - [02/Jan/2026 11:53:13] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 12:11:35,157 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 12:11:35,164 USER(20260102115256): I want to go go for visit rajkot(gujarat) give 2 day trip plan
+2026-01-02 12:11:35,164 BOT: **\U0001f31f 2\u2011Day Rajkot Adventure Guide \U0001f31f**
+
+Hey there!  
+Ready to explore the vibrant city of Raj\u202fKot? Below is a fun\u2011packed, easy\u2011to\u2011follow itinerary that covers the best sights, tasty food, and a little local flavor. Feel free to tweak the times or add your own stops—this is just a starting point!  
+
+---
+
+## Day\u202f1 – “Culture & History”
+
+| Time | Activity | Why It’s Worth It | Tips |
+|------|----------|-------------------|------|
+| **08:30\u202f–\u202f09:30** | **Breakfast at “Maharaja’s Kitchen”** | Classic Gujarati thali (dhokla, khandvi, sweet lassi). | Try the *khakhra* for a crunchy start. |
+| **10:00\u202f–\u202f12:00** | **Raj\u202fKot Palace (Sardar Patel Museum)** | Stunning architecture + art & history of the princely state. | Free entry. Bring a water
+2026-01-02 12:11:35,164 127.0.0.1 - - [02/Jan/2026 12:11:35] "POST /api/chat HTTP/1.1" 200 -
+2026-01-02 12:13:41,518 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-02 12:13:41,518 USER(20260102115256): i want to try order in zomato but i'm not able to palse order , how to make order
+2026-01-02 12:13:41,518 BOT: Hey there! \U0001f44b Let’s get that Zomato order in place. I’ll walk you through the steps and give you a quick troubleshooting checklist if something’s not working.  
+
+---
+
+## 1\ufe0f\u20e3 Quick Start – How to Place an Order
+
+| Step | What to Do | Screenshot\u2011style Hint |
+|------|------------|-----------------------|
+| **1. Open the App / Website** | Launch the Zomato app on your phone or go to [zomato.com](https://www.zomato.com). | Make sure you’re on the latest version. |
+| **2. Enter Your Delivery Address** | Tap the address bar \u2192 “Add new address” \u2192 type your full address (street, landmark, pin\u2011code). | Double\u2011check the pin\u2011code; wrong pin can block restaurants. |
+| **3. Browse Restaurants** | Use the search bar or “Explore” tabs. Filter by cuisine, rating, or “Delivery”. | You can also search “Pizza near me” or “Sushi”. |
+| **4. Pick a Restaurant** | Tap the restaurant \u2192 scroll through the menu. | Look
+2026-01-02 12:13:41,518 127.0.0.1 - - [02/Jan/2026 12:13:41] "POST /api/chat HTTP/1.1" 200 -
+2026-01-08 15:11:01,259 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.86.187.199:5000
+2026-01-08 15:11:01,259 [33mPress CTRL+C to quit[0m
+2026-01-08 15:11:01,259  * Restarting with stat
+2026-01-08 15:11:02,327  * Debugger is active!
+2026-01-08 15:11:02,335  * Debugger PIN: 814-560-840
+2026-01-08 15:11:02,359 127.0.0.1 - - [08/Jan/2026 15:11:02] "GET / HTTP/1.1" 200 -
+2026-01-08 15:11:02,465 127.0.0.1 - - [08/Jan/2026 15:11:02] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-01-08 15:11:02,484 127.0.0.1 - - [08/Jan/2026 15:11:02] "GET /static/js/script.js HTTP/1.1" 200 -
+2026-01-08 15:11:02,484 127.0.0.1 - - [08/Jan/2026 15:11:02] "GET /static/images/logo.png HTTP/1.1" 200 -
+2026-01-08 15:11:02,584 127.0.0.1 - - [08/Jan/2026 15:11:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-01-08 15:11:05,417 127.0.0.1 - - [08/Jan/2026 15:11:05] "GET /static/images/user-logo.png HTTP/1.1" 200 -
+2026-01-08 15:11:05,417 127.0.0.1 - - [08/Jan/2026 15:11:05] "GET /static/images/bot-logo.png HTTP/1.1" 200 -
+2026-01-08 15:11:09,983 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 15:11:09,999 USER(20260108151105): Hii
+2026-01-08 15:11:09,999 BOT: Hello! \U0001f44b How can I help you today?
+2026-01-08 15:11:09,999 127.0.0.1 - - [08/Jan/2026 15:11:09] "POST /api/chat HTTP/1.1" 200 -
+2026-01-08 15:11:19,953 HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-08 15:11:19,953 USER(20260108151105): Who are You
+2026-01-08 15:11:19,953 BOT: I’m your friendly customer\u2011support assistant—an AI here to help answer questions, solve problems, and make your experience as smooth as possible. How can I assist you today?
+2026-01-08 15:11:19,953 127.0.0.1 - - [08/Jan/2026 15:11:19] "POST /api/chat HTTP/1.1" 200 -
